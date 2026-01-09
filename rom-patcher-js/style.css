@@ -796,10 +796,9 @@ h1 {
     border-color: #3a5a4a !important;
 }
 
-#rom-patcher-container svg,
-#rom-patcher-container svg * {
-    fill: #5a8a6a !important;
-    stroke: #5a8a6a !important;
+#rom-patcher-container .discord-link svg {
+    fill: currentColor !important;
+    stroke: none !important;
 }
 
 #rom-patcher-container .text-success,
@@ -852,10 +851,27 @@ h1 {
     margin-bottom: 16px;
     padding-bottom: 12px;
     border-bottom: 1px solid #2a3a4a;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .form-note a {
     color: #60b0ff;
     font-weight: 600;
+    transition: color 0.2s;
+}
+
+.form-note a:hover,
+.discord-link:hover {
+    color: #90d0ff;
+}
+
+.discord-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    color: #7289da;
+    text-decoration: none;
+    transition: color 0.2s;
 }
