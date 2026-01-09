@@ -575,80 +575,16 @@ body::after {
 .beepy {
     position: fixed;
     bottom: 60px;
-    right: 40px;
+    right: 80px;
     z-index: 1;
-    perspective: 400px;
     animation: float 3s ease-in-out infinite;
 }
 
-.inflatable-ring {
-    position: relative;
-    width: 160px;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform-style: preserve-3d;
-}
-
-.inflatable-ring::before {
-    content: '';
-    position: absolute;
-    width: 85px;
-    height: 85px;
-    border-radius: 50%;
-    border: 32px solid;
-    border-color: transparent;
-    background:
-        conic-gradient(
-            #ffffff 0deg 45deg,
-            #dd2222 45deg 90deg,
-            #ffffff 90deg 135deg,
-            #dd2222 135deg 180deg,
-            #ffffff 180deg 225deg,
-            #dd2222 225deg 270deg,
-            #ffffff 270deg 315deg,
-            #dd2222 315deg 360deg
-        );
-    background-origin: border-box;
-    -webkit-mask:
-        radial-gradient(transparent 42px, black 42px);
-    mask:
-        radial-gradient(transparent 42px, black 42px);
-    box-shadow:
-        inset 0 8px 20px rgba(0,0,0,0.35),
-        inset 0 -8px 15px rgba(255,255,255,0.6),
-        inset 8px 0 12px rgba(0,0,0,0.2),
-        inset -8px 0 12px rgba(0,0,0,0.2),
-        0 15px 25px rgba(0,0,0,0.4);
-    transform: rotateX(65deg);
-    z-index: 1;
-}
-
-.inflatable-ring::after {
-    content: '';
-    position: absolute;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    background:
-        radial-gradient(ellipse at 50% 40%, #4dd4ff 0%, #0099cc 40%, #006688 100%);
-    box-shadow:
-        inset 0 5px 12px rgba(0,0,0,0.3);
-    transform: rotateX(65deg);
-    top: 5px;
-    z-index: 0;
-}
-
-.inflatable-ring img {
+.beepy img {
     image-rendering: pixelated;
     image-rendering: crisp-edges;
     -ms-interpolation-mode: nearest-neighbor;
-    filter: drop-shadow(1px 2px 4px rgba(0,0,0,0.5));
-    position: relative;
-    top: -12px;
-    left: 3px;
-    z-index: 3;
+    filter: drop-shadow(2px 4px 8px rgba(0,0,0,0.5));
     transform: scale(2);
     transform-origin: center center;
 }
