@@ -1,0 +1,861 @@
+/* Rom Patcher JS template CSS stylesheet */
+/* customize it to your taste! */
+
+
+/* @FONT-FACES */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300');
+
+
+/* Rom Patcher JS - container */
+#rom-patcher-container {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	line-height: 1.8;
+
+	background-color: #f9fafa;
+	padding: 30px 15px;
+	border-radius: 3px;
+	color: black;
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+/* Rom Pacher JS - text classes */
+#rom-patcher-container .text-mono {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 12px;
+}
+
+#rom-patcher-container .text-muted {
+	color: #888;
+}
+
+#rom-patcher-container .text-center {
+	text-align: center
+}
+
+#rom-patcher-container .text-right {
+	text-align: right
+}
+
+#rom-patcher-container .text-truncate {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+#rom-patcher-container .text-selectable {
+	-moz-user-select: text;
+	-webkit-user-select: text;
+	-ms-user-select: text;
+	-o-user-select: text;
+	user-select: text;
+	cursor: text;
+}
+
+/* Rom Patcher JS - rows */
+#rom-patcher-container .rom-patcher-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between
+}
+
+#rom-patcher-container .rom-patcher-row>div:first-child {
+	width: 25%
+}
+
+#rom-patcher-container .rom-patcher-row>div:last-child {
+	width: 73%
+}
+
+#rom-patcher-container .margin-bottom {
+	margin-bottom: 8px
+}
+
+
+
+#rom-patcher-container #rom-patcher-row-info-rom,
+#rom-patcher-container #rom-patcher-row-alter-header,
+#rom-patcher-container #rom-patcher-row-patch-description,
+#rom-patcher-container #rom-patcher-row-patch-requirements,
+#rom-patcher-container #rom-patcher-row-error-message {
+	display: none
+}
+
+#rom-patcher-container #rom-patcher-row-info-rom.show,
+#rom-patcher-container #rom-patcher-row-alter-header.show,
+#rom-patcher-container #rom-patcher-row-patch-description.show,
+#rom-patcher-container #rom-patcher-row-patch-requirements.show {
+	display: flex
+}
+
+#rom-patcher-container #rom-patcher-row-error-message.show {
+	display: block
+}
+
+#rom-patcher-patch-description {
+	font-size: 85%;
+}
+
+#rom-patcher-row-apply {
+	margin-top: 12px;
+}
+
+
+#rom-patcher-span-crc32 span.clickable {
+	text-decoration: underline
+}
+
+#rom-patcher-span-crc32 span.clickable:hover {
+	cursor: pointer;
+	color: black
+}
+
+#rom-patcher-error-message {
+	color: #ff0030;
+	padding-left: 20px;
+	background-image: url(assets/icon_x_circle_red.svg);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+#rom-patcher-error-message.warning {
+	color: #ff7800;
+	background-image: url(assets/icon_alert_orange.svg);
+}
+
+/* Rom Patcher JS - form elements */
+#rom-patcher-container input[type=file],
+#rom-patcher-container input[type=checkbox],
+#rom-patcher-container select {
+	box-sizing: border-box;
+	max-width: 100%;
+	font-family: inherit;
+	font-size: 100%;
+	outline: none;
+	border: none;
+	border-radius: 3px;
+	background-color: #edefef;
+}
+
+#rom-patcher-container input[type=file]:focus:not(:disabled),
+#rom-patcher-container select:focus:not(:disabled),
+#rom-patcher-container input[type=checkbox]:focus:not(:disabled) {
+	box-shadow: #a8fff3 0 0 0 2px;
+}
+
+#rom-patcher-container input[type=file] {
+	width: 100%;
+	padding: 6px 10px
+}
+
+#rom-patcher-container input[type=file].no-file-selector-button::file-selector-button {
+	display: none
+}
+
+#rom-patcher-container select {
+	width: 100%;
+	padding: 6px 18px 6px 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	text-overflow: '';
+
+	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+");
+	background-position: 100% center;
+	background-repeat: no-repeat;
+}
+
+#rom-patcher-container select::-ms-expand {
+	display: none
+}
+
+#rom-patcher-container input[type=file]:hover:not(:disabled),
+#rom-patcher-container select:hover:not(:disabled) {
+	cursor: pointer;
+	background-color: #dee1e1
+}
+
+#rom-patcher-container input[type=file]:disabled,
+#rom-patcher-container select:disabled {
+	color: #888
+}
+
+
+
+
+
+
+#rom-patcher-container input[type=file].empty,
+#rom-patcher-container input[type=file]:not(:disabled):not(.empty):hover {
+	padding-left: 32px;
+	background-repeat: no-repeat;
+	background-position: 8px center;
+	background-size: 16px;
+	background-image: url(assets/icon_upload.svg);
+}
+
+#rom-patcher-container input[type=file].valid {
+	background-color: #d6ffc8;
+	padding-right: 28px;
+	background-repeat: no-repeat;
+	background-position: right 12px center;
+	background-size: 16px;
+	background-image: url(assets/icon_check_circle_green.svg);
+}
+
+#rom-patcher-container input[type=file].valid:not(:disabled):not(.empty):hover {
+	background-color: #adf795;
+	background-position: 8px center, right 12px center;
+	background-size: 16px, 16px;
+	background-image: url(assets/icon_upload.svg), url(assets/icon_check_circle_green.svg);
+}
+
+#rom-patcher-container input[type=file].invalid {
+	background-color: #ffc8c8;
+	padding-right: 28px;
+	background-repeat: no-repeat;
+	background-position: right 12px center;
+	background-size: 16px;
+	background-image: url(assets/icon_x_circle_red.svg);
+}
+
+#rom-patcher-container input[type=file].invalid:not(:disabled):not(.empty):hover {
+	background-color: #ffa3a3;
+	background-position: 8px center, right 12px center;
+	background-size: 16px, 16px;
+	background-image: url(assets/icon_upload.svg), url(assets/icon_x_circle_red.svg);
+}
+
+#rom-patcher-container input[type=file].icon-upload {
+	padding-left: 32px;
+	background-image: url(assets/app_icon_16.png);
+	background-repeat: no-repeat;
+	background-position: 8px center;
+}
+
+
+#rom-patcher-container input[type=checkbox] {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	background-color: transparent;
+	border-radius: 3px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	border: 2px solid #2a9ca5;
+
+	background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMuMiIgZmlsbD0ibm9uZSIgZD0iTSAxLjE5LDcuMTAgNi4wNywxMi4wNiAxNC44OCwzLjMyIi8+PC9zdmc+');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 0px;
+	transition: background-color .2s, background-size .2s;
+}
+
+#rom-patcher-container input[type=checkbox]:hover:not(:disabled) {
+	cursor: pointer;
+	border-color: #3aacb5;
+}
+
+#rom-patcher-container input[type=checkbox]:hover:checked:not(:disabled) {
+	background-color: #3aacb5;
+}
+
+#rom-patcher-container input[type=checkbox]:checked {
+	background-color: #2a9ca5;
+	background-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+/* buttons */
+#rom-patcher-container button {
+	font-family: inherit;
+	font-size: 100%;
+	min-width: 120px;
+	border-radius: 3px;
+	border: 0;
+	outline: none;
+
+	padding: 10px 20px;
+	margin: 0 5px;
+
+	background-color: #2a9ca5;
+	color: white;
+
+	transition: background-color .15s;
+
+	box-sizing: border-box
+}
+
+#rom-patcher-container button:not(:disabled) {
+	cursor: pointer;
+}
+
+#rom-patcher-container button:disabled {
+	opacity: .35 !important;
+	cursor: not-allowed
+}
+
+#rom-patcher-container button:not(:disabled):hover {
+	background-color: #3aacb5;
+}
+
+#rom-patcher-container button:not(:disabled):active {
+	background-color: #297b81;
+	transform: translateY(1px)
+}
+
+
+
+/* loading spinner */
+@keyframes spin {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.rom-patcher-spinner {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	position: relative;
+	animation: spin 1s ease-in-out infinite;
+	vertical-align: middle;
+}
+
+.rom-patcher-spinner:before {
+	width: 6px;
+	height: 6px;
+	background-color: #41bdc7;
+	border-radius: 3px;
+	display: inline-block;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -3px;
+}
+
+#patch-builder-button-create .rom-patcher-spinner:before,
+#rom-patcher-button-apply .rom-patcher-spinner:before {
+	background-color: #fff;
+}
+
+
+
+#rom-patcher-container  #rom-patcher-select-patch{
+	display:none
+}
+#rom-patcher-container  #rom-patcher-select-patch.single{
+	background-image: none;
+	background-color: transparent;
+	color: inherit !important;
+	padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+#rom-patcher-container .rom-patcher-container-input {
+	position: relative
+}
+
+#rom-patcher-container .rom-patcher-container-input input.loading,
+#rom-patcher-container .rom-patcher-container-input select.loading {
+	padding-left: 32px;
+}
+
+#rom-patcher-container .rom-patcher-container-input input.loading+.rom-patcher-spinner,
+#rom-patcher-container .rom-patcher-container-input select.loading+.rom-patcher-spinner {
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	left: 8px;
+}
+
+/* ZIP dialog */
+#rom-patcher-dialog-zip::backdrop,
+#rom-patcher-dialog-zip-backdrop {
+	background-color: rgba(0, 0, 0, .75);
+	backdrop-filter: blur(3px);
+/*
+	transition: overlay 0.35s allow-discrete, display 0.35s allow-discrete, opacity 0.35s;
+	opacity: 0;
+}
+#rom-patcher-dialog-zip[open]::backdrop {
+	opacity: 1;
+
+	@starting-style {
+		opacity: 0;
+	}
+*/
+}
+#rom-patcher-dialog-zip-backdrop {
+	/* fallback for browsers not compatible with <dialog> */
+	justify-content: center;
+	align-items: center;
+}
+
+#rom-patcher-dialog-zip {
+	min-width: 420px;
+	vertical-align: middle;
+	margin: auto;
+	background-color: white;
+	color: #999;
+	box-sizing: border-box;
+	box-shadow: rgba(0, 0, 0, .7) 0 0 24px;
+	padding: 20px;
+	border-radius: 3px;
+	border: none;
+/*
+	transition: overlay 0.35s allow-discrete, display 0.35s allow-discrete, opacity 0.35s;
+	opacity: 0;
+}
+#rom-patcher-dialog-zip[open] {
+	opacity: 1;
+
+	@starting-style {
+		opacity: 0;
+	}
+*/
+}
+
+#rom-patcher-dialog-zip-message {
+	text-align: center
+}
+
+#rom-patcher-dialog-zip-file-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	max-height: 300px;
+	overflow-y: auto;
+}
+
+#rom-patcher-dialog-zip-file-list li {
+	color: #3c3c3c;
+	padding: 4px 8px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+#rom-patcher-dialog-zip-file-list li:hover {
+	background-color: #eee;
+	cursor: pointer;
+	color: black;
+	border-radius: 3px;
+}
+
+
+
+
+
+/* responsive */
+@media only screen and (max-width:641px) {
+	#rom-patcher-container {
+		font-size: 14px
+	}
+
+	#rom-patcher-rom-info {
+		font-size: 11px
+	}
+
+	#rom-patcher-dialog-zip {
+		min-width: auto;
+	}
+}
+
+
+
+
+
+
+
+
+#rom-patcher-powered {
+	margin-top: 16px;
+	font-size: 11px;
+	text-align: center;
+}
+
+#rom-patcher-powered a {
+	color: #cce;
+	padding: 4px 8px;
+	text-decoration: none;
+	opacity: .25;
+}
+
+#rom-patcher-powered a>img {
+	display: inline-block;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 4px;
+}
+
+#rom-patcher-powered a:hover {
+	text-decoration: underline;
+	opacity: 1;
+}
+
+
+/* ========================================
+   LOGI EMERALD CUSTOM STYLES
+   ======================================== */
+
+body {
+    font: 15px 'Open Sans', sans-serif;
+    color: #e4e4e6;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(180deg,
+        #87CEEB 0%,
+        #5fb3e4 15%,
+        #1e90d6 35%,
+        #0077be 50%,
+        #005a99 70%,
+        #004080 100%
+    );
+    background-attachment: fixed;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Ocean waves */
+body::before,
+body::after {
+    content: '';
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 120px;
+    background-repeat: repeat-x;
+    pointer-events: none;
+    z-index: 0;
+}
+
+body::before {
+    bottom: 60px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120'%3E%3Cpath fill='%23ffffff20' d='M0,60 C200,100 400,20 600,60 C800,100 1000,20 1200,60 L1200,120 L0,120 Z'/%3E%3C/svg%3E");
+    background-size: 1200px 120px;
+    animation: wave 8s linear infinite;
+}
+
+body::after {
+    bottom: 0;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120'%3E%3Cpath fill='%23ffffff15' d='M0,60 C200,20 400,100 600,60 C800,20 1000,100 1200,60 L1200,120 L0,120 Z'/%3E%3C/svg%3E");
+    background-size: 1200px 120px;
+    animation: wave 12s linear infinite reverse;
+}
+
+@keyframes wave {
+    from { background-position-x: 0; }
+    to { background-position-x: 1200px; }
+}
+
+.beepy {
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+    z-index: 1;
+    perspective: 400px;
+    animation: float 3s ease-in-out infinite;
+}
+
+.inflatable-ring {
+    position: relative;
+    width: 160px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+}
+
+.inflatable-ring::before {
+    content: '';
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 32px solid;
+    border-color: transparent;
+    background:
+        conic-gradient(
+            #ffffff 0deg 45deg,
+            #dd2222 45deg 90deg,
+            #ffffff 90deg 135deg,
+            #dd2222 135deg 180deg,
+            #ffffff 180deg 225deg,
+            #dd2222 225deg 270deg,
+            #ffffff 270deg 315deg,
+            #dd2222 315deg 360deg
+        );
+    background-origin: border-box;
+    -webkit-mask:
+        radial-gradient(transparent 42px, black 42px);
+    mask:
+        radial-gradient(transparent 42px, black 42px);
+    box-shadow:
+        inset 0 8px 20px rgba(0,0,0,0.35),
+        inset 0 -8px 15px rgba(255,255,255,0.6),
+        inset 8px 0 12px rgba(0,0,0,0.2),
+        inset -8px 0 12px rgba(0,0,0,0.2),
+        0 15px 25px rgba(0,0,0,0.4);
+    transform: rotateX(65deg);
+    z-index: 1;
+}
+
+.inflatable-ring::after {
+    content: '';
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background:
+        radial-gradient(ellipse at 50% 40%, #4dd4ff 0%, #0099cc 40%, #006688 100%);
+    box-shadow:
+        inset 0 5px 12px rgba(0,0,0,0.3);
+    transform: rotateX(65deg);
+    top: 5px;
+    z-index: 0;
+}
+
+.inflatable-ring img {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+    filter: drop-shadow(1px 2px 4px rgba(0,0,0,0.5));
+    position: relative;
+    top: -12px;
+    left: 3px;
+    z-index: 3;
+    transform: scale(2);
+    transform-origin: center center;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0) rotate(-2deg); }
+    50% { transform: translateY(-12px) rotate(2deg); }
+}
+
+.sparkle {
+    position: fixed;
+    width: 4px;
+    height: 4px;
+    background: white;
+    border-radius: 50%;
+    animation: sparkle 2s ease-in-out infinite;
+    pointer-events: none;
+}
+
+.sparkle:nth-child(1) { left: 10%; bottom: 30%; animation-delay: 0s; }
+.sparkle:nth-child(2) { left: 25%; bottom: 45%; animation-delay: 0.5s; }
+.sparkle:nth-child(3) { left: 45%; bottom: 25%; animation-delay: 1s; }
+.sparkle:nth-child(4) { left: 70%; bottom: 35%; animation-delay: 1.5s; }
+.sparkle:nth-child(5) { left: 85%; bottom: 50%; animation-delay: 0.3s; }
+
+@keyframes sparkle {
+    0%, 100% { opacity: 0; transform: scale(0.5); }
+    50% { opacity: 0.8; transform: scale(1.2); }
+}
+
+header, #rom-patcher-container, #rom-patcher-powered {
+    position: relative;
+    z-index: 10;
+}
+
+header {
+    padding-top: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(0,50,100,0.6);
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+#rom-patcher-container {
+    background: linear-gradient(135deg, rgba(15,25,45,0.95) 0%, rgba(25,40,65,0.95) 100%);
+    backdrop-filter: blur(10px);
+    padding: 24px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4), 0 0 0 1px rgba(100,150,200,0.2);
+    color: #e0e8f0;
+    border-radius: 0;
+}
+
+#rom-patcher-container label,
+#rom-patcher-container .text-right {
+    color: #a0c0e0;
+    font-weight: 500;
+}
+
+#rom-patcher-container .text-muted {
+    color: #7090b0 !important;
+}
+
+#rom-patcher-container input[type="file"] {
+    background: rgba(20,35,55,0.9) !important;
+    border: 2px solid #2a3a4a !important;
+    color: #b0c0d0 !important;
+    outline: none !important;
+    transition: background 0.2s ease;
+}
+
+#rom-patcher-container input[type="file"]:hover {
+    background: rgba(30,45,65,0.95) !important;
+}
+
+#rom-patcher-container input[type="file"]:focus,
+#rom-patcher-container input[type="file"]:active,
+#rom-patcher-container input[type="file"].valid {
+    background: rgba(20,35,55,0.9) !important;
+}
+
+#rom-patcher-container select,
+#rom-patcher-select-patch {
+    background: rgba(20,35,55,0.9);
+    border: 2px solid #2a3a4a;
+    color: #b0c0d0;
+    padding: 10px 12px !important;
+    text-indent: 4px;
+    transition: border-color 0.2s, background 0.2s;
+}
+
+#rom-patcher-container select:hover,
+#rom-patcher-select-patch:hover {
+    background: rgba(30,45,65,0.95) !important;
+}
+
+#rom-patcher-container select:focus,
+#rom-patcher-container select:active,
+#rom-patcher-select-patch:focus,
+#rom-patcher-select-patch:active {
+    border-color: #2a3a4a !important;
+    background: rgba(20,35,55,0.9) !important;
+    outline: none !important;
+}
+
+#rom-patcher-container *:focus,
+#rom-patcher-container *:hover {
+    outline: none !important;
+}
+
+#rom-patcher-container input,
+#rom-patcher-container input:focus,
+#rom-patcher-container input:hover,
+#rom-patcher-container input:active,
+#rom-patcher-container select,
+#rom-patcher-container select:focus,
+#rom-patcher-container select:hover,
+#rom-patcher-container select:active,
+#rom-patcher-container button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    outline-color: transparent !important;
+    outline-style: none !important;
+}
+
+#rom-patcher-container input[type="file"]::-webkit-file-upload-button {
+    background: #2a3a4a;
+    border: none;
+    color: #b0c0d0;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#rom-patcher-container input[type="file"]::-webkit-file-upload-button:hover {
+    background: #3a4a5a;
+}
+
+#rom-patcher-container .valid,
+#rom-patcher-container input.valid {
+    border-color: #3a5a4a !important;
+}
+
+#rom-patcher-container svg,
+#rom-patcher-container svg * {
+    fill: #5a8a6a !important;
+    stroke: #5a8a6a !important;
+}
+
+#rom-patcher-container .text-success,
+#rom-patcher-container [class*="valid"],
+#rom-patcher-container [class*="success"] {
+    color: #5a8a6a !important;
+}
+
+#rom-patcher-container .text-right {
+    min-width: 100px;
+    text-align: right;
+    padding-right: 12px;
+}
+
+#rom-patcher-container button {
+    background: linear-gradient(135deg, #4a9a6a 0%, #2a7a4a 100%);
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(50,120,70,0.4);
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 0;
+}
+
+#rom-patcher-container button:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(50,120,70,0.5);
+    background: linear-gradient(135deg, #5aaa7a 0%, #3a8a5a 100%);
+}
+
+#rom-patcher-container button:disabled {
+    background: linear-gradient(135deg, #5a6a7a 0%, #4a5a6a 100%);
+    cursor: not-allowed;
+}
+
+#rom-patcher-powered a {
+    background: rgba(255,255,255,0.2);
+    padding: 8px 16px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    backdrop-filter: blur(5px);
+    opacity: 1;
+}
+
+.form-note {
+    font-size: 0.9em;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #2a3a4a;
+    text-align: center;
+}
+
+.form-note a {
+    color: #60b0ff;
+    font-weight: 600;
+}
