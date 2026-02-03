@@ -46,11 +46,11 @@ function PokemonDetailPage() {
 
       <div className="flex flex-col sm:flex-row gap-6 items-start">
         <div className="flex-shrink-0">
-          <div className="w-32 h-32 flex items-center justify-center bg-[rgba(20,35,55,0.5)] rounded-lg">
+          <div className="w-64 h-64 flex items-center justify-center bg-[rgba(20,35,55,0.5)] rounded-lg">
             <img
               src={mon.frontSpriteBase64}
               alt={mon.name}
-              className="max-w-full max-h-full scale-150"
+              className="w-full h-full"
               style={{ imageRendering: 'pixelated' }}
             />
           </div>
