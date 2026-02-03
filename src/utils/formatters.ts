@@ -14,6 +14,10 @@ export function formatTrainerId(id: string): string {
   return id.replace('TRAINER_', '').toLowerCase().replace(/_/g, '-')
 }
 
+export function formatTrainerIdForTitleDisplay(id: string): string {
+  return formatTrainerId(id).split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ').replace(' 1', '')
+}
+
 export function formatTypeName(type: string): string {
   return type.replace('TYPE_', '').charAt(0) + type.replace('TYPE_', '').slice(1).toLowerCase()
 }

@@ -1,6 +1,6 @@
 import { Link } from '@tanstack/react-router'
 import type { Trainer } from '@/types'
-import { formatTrainerId, formatSpeciesName } from '@/utils/formatters'
+import { formatTrainerId, formatSpeciesName, formatTrainerIdForTitleDisplay } from '@/utils/formatters'
 
 interface TrainerCardProps {
   trainer: Trainer
@@ -15,10 +15,9 @@ export function TrainerCard({ trainer }: TrainerCardProps) {
     >
       <div className="flex justify-between items-start">
         <div>
-          <h3 className="text-white font-semibold">{trainer.name || '(Unknown)'}</h3>
+          <h3 className="text-white font-semibold">{formatTrainerIdForTitleDisplay(trainer.id) || '(Unknown)'}</h3>
           <p className="text-sm text-[#a0c0e0]">{trainer.trainerClass}</p>
         </div>
-        <span className="text-xs text-[#7090b0]">{trainer.party.length} Pokemon</span>
       </div>
       <div className="mt-2 flex flex-wrap gap-1">
         {trainer.party.slice(0, 3).map((member, i) => (
