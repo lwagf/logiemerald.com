@@ -13,7 +13,7 @@ export function Navigation() {
   const currentPath = router.location.pathname
 
   return (
-    <nav className="glass-container max-w-[800px] mx-auto mb-4">
+    <nav className="glass-container mx-auto mb-4">
       <div className="flex items-center justify-between overflow-x-auto">
         <div className="flex overflow-x-auto">
           {navItems.map(item => {
