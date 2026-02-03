@@ -1,10 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { RomPatcher } from '@/components/patcher/RomPatcher'
 
 export const Route = createFileRoute('/')({
-  component: PatcherPage,
+  component: () => null,
 })
-
-function PatcherPage() {
-  return <RomPatcher />
-}

@@ -19,7 +19,7 @@ function initializePatcher() {
         requireValidation: true,
       },
       {
-        file: './patch/logi-emerald-v0.1b.bps',
+        file: '/patch/logi-emerald-v0.1b.bps',
         name: 'Logi Emerald v0.1b',
         inputMd5: '605b89b67018abcea91e693a4dd25be3',
         description: 'v0.1 Beta',
@@ -33,11 +33,16 @@ function initializePatcher() {
   }
 }
 
-export function RomPatcher() {
+interface RomPatcherProps {
+  isActive: boolean
+}
+
+export function RomPatcher({ isActive }: RomPatcherProps) {
   const initialized = useRef(false)
 
   useEffect(() => {
-    if (initialized.current) return
+    // Only initialize when active and not already initialized
+    if (!isActive || initialized.current) return
 
     const existingScript = document.getElementById(SCRIPT_ID)
 
@@ -82,7 +87,7 @@ export function RomPatcher() {
       }
     }
     document.body.appendChild(script)
-  }, [])
+  }, [isActive])
 
   return (
     <>
