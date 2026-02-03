@@ -6,6 +6,7 @@ import { SearchBar } from '@/components/dex/SearchBar'
 import { PokemonCard } from '@/components/dex/PokemonCard'
 import { Pagination } from '@/components/dex/Pagination'
 import type { Pokemon } from '@/types'
+import { TypeFilter } from '@/components/dex/TypeFilter'
 
 export const Route = createFileRoute('/dex/pokemon/')({
   component: PokemonListPage,
@@ -29,6 +30,9 @@ function PokemonListPage() {
     searchFields: ['name', 'id'],
     filterFn: (item, filters) => {
       if (filters.customOnly === 'true' && !item.isCustom) {
+        return false
+      }
+      if (filters.type && !item.types.includes(filters.type)) {
         return false
       }
       return true
@@ -58,6 +62,11 @@ function PokemonListPage() {
             <span className="text-sm text-[#a0c0e0]">Show new!</span>
           </label>
         </div>
+
+        <TypeFilter
+          selectedType={filters.type || ''}
+          onTypeChange={type => setFilter('type', type)}
+        />
 
         <div className="text-sm text-[#7090b0]">
           Showing {paginatedItems.length} of {totalItems} Pokemon
