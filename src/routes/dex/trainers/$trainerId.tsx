@@ -44,13 +44,6 @@ function TrainerDetailPage() {
 
       <div className="mb-6">
         <h2 className="text-2xl font-bold text-white mb-1">{trainer.name || '(Unknown)'}</h2>
-        <p className="text-[#a0c0e0]">{trainer.trainerClass}</p>
-        <div className="flex gap-4 mt-2 text-sm text-[#7090b0]">
-          <span>{trainer.battleType}</span>
-          {trainer.ai && trainer.ai.length > 0 && (
-            <span>AI: {trainer.ai.join(', ')}</span>
-          )}
-        </div>
       </div>
 
       <h3 className="text-lg font-semibold text-white mb-3">Party ({trainer.party.length})</h3>
