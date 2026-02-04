@@ -19,11 +19,23 @@ function initializePatcher() {
         requireValidation: true,
       },
       {
-        file: '/patch/logi-emerald-v0.1b.bps',
-        name: 'Logi Emerald v0.1b',
-        inputMd5: '605b89b67018abcea91e693a4dd25be3',
-        description: 'v0.1 Beta',
-        outputName: 'Logi Emerald v0.1b',
+        file: '/patch/patches.zip',
+        patches: [
+          {
+            file: 'logi-emerald-v0.2b.bps',
+            name: 'Logi Emerald v0.2b',
+            inputMd5: '605b89b67018abcea91e693a4dd25be3',
+            description: 'v0.2 Beta',
+            outputName: 'Logi Emerald v0.2b',
+          },
+          {
+            file: 'logi-emerald-v0.1b.bps',
+            name: 'Logi Emerald v0.1b',
+            inputMd5: '605b89b67018abcea91e693a4dd25be3',
+            description: 'v0.1 Beta',
+            outputName: 'Logi Emerald v0.1b',
+          }
+        ]
       }
     )
     return true
