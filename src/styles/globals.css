@@ -93,6 +93,27 @@
     @apply text-white;
     background: rgba(255,255,255,0.1);
   }
+
+  /* Mobile nav scroll indicator */
+  .nav-scroll-hint {
+    @apply absolute right-0 top-0 bottom-0 w-8 pointer-events-none;
+    background: linear-gradient(to right, transparent, rgba(15,25,45,0.95));
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media (min-width: 640px) {
+    .nav-scroll-hint {
+      display: none;
+    }
+  }
 }
 
 /* Rom Patcher specific styles */

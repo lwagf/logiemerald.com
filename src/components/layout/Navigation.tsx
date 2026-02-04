@@ -14,23 +14,26 @@ export function Navigation() {
 
   return (
     <nav className="glass-container mx-auto mb-4">
-      <div className="flex items-center justify-between overflow-x-auto">
-        <div className="flex overflow-x-auto">
-          {navItems.map(item => {
-            const isActive = item.exact
-              ? currentPath === item.to
-              : currentPath.startsWith(item.to)
+      <div className="flex items-center justify-between">
+        <div className="nav-scroll-container relative flex-1 min-w-0">
+          <div className="flex overflow-x-auto scrollbar-hide">
+            {navItems.map(item => {
+              const isActive = item.exact
+                ? currentPath === item.to
+                : currentPath.startsWith(item.to)
 
-            return (
-              <Link
-                key={item.to}
-                to={item.to}
-                className={`nav-link ${isActive ? 'active' : ''}`}
-              >
-                {item.label}
-              </Link>
-            )
-          })}
+              return (
+                <Link
+                  key={item.to}
+                  to={item.to}
+                  className={`nav-link ${isActive ? 'active' : ''}`}
+                >
+                  {item.label}
+                </Link>
+              )
+            })}
+          </div>
+          <div className="nav-scroll-hint" aria-hidden="true"></div>
         </div>
         <a
           href="https://discord.gg/6DWBdg2ZH3"
