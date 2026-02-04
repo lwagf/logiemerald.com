@@ -42,7 +42,7 @@ export function Navigation() {
           className="discord-link mx-4 flex items-center gap-1 shrink-0"
           title="Join our Discord"
         >
-          Discord?{' '}
+          {' '}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
