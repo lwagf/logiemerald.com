@@ -98,10 +98,10 @@ function TrainerDetailPage() {
                       <span className="text-[#6080a0]">Ability: </span>
                       <Link
                         to="/dex/abilities/$abilityId"
-                        params={{ abilityId: formatAbilityId(member.ability) }}
+                        params={{ abilityId: formatAbilityId(member.ability ?? 'ABILITY_NONE') }}
                         className="text-[#a0c0e0] hover:text-[#60b0ff] transition-colors"
                       >
-                        {formatAbilityName(member.ability)}
+                        {formatAbilityName(member.ability ?? 'ABILITY_NONE')}
                       </Link>
                     </div>
                   </div>
