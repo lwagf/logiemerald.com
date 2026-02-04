@@ -8,6 +8,9 @@ export default defineConfig({
     TanStackRouterVite(),
     react(),
   ],
+  build: {
+    outDir: 'docs',
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

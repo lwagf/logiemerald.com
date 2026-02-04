@@ -1,9 +1,6 @@
 # Dependencies
 node_modules/
 
-# Build output
-dist/
-
 # IDE
 .vscode/
 .idea/
@@ -24,3 +21,4 @@ dist/
 
 # TanStack Router generated files
 src/routeTree.gen.ts
+.vite
