@@ -841,7 +841,7 @@
         "attack": 52,
         "defense": 43,
         "speed": 65,
-        "spAttack": 0,
+        "spAttack": 60,
         "spDefense": 50
       },
       "abilities": [
@@ -986,7 +986,7 @@
         "attack": 64,
         "defense": 58,
         "speed": 80,
-        "spAttack": 0,
+        "spAttack": 80,
         "spDefense": 65
       },
       "abilities": [
@@ -1125,7 +1125,7 @@
         "attack": 84,
         "defense": 78,
         "speed": 100,
-        "spAttack": 0,
+        "spAttack": 109,
         "spDefense": 85
       },
       "abilities": [
@@ -1344,7 +1344,7 @@
         "attack": 84,
         "defense": 78,
         "speed": 100,
-        "spAttack": 0,
+        "spAttack": 109,
         "spDefense": 85
       },
       "abilities": [
@@ -1373,7 +1373,7 @@
         "defense": 65,
         "speed": 43,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 64
       },
       "abilities": [
         "ABILITY_TORRENT",
@@ -1518,7 +1518,7 @@
         "defense": 80,
         "speed": 58,
         "spAttack": 65,
-        "spDefense": 0
+        "spDefense": 80
       },
       "abilities": [
         "ABILITY_TORRENT",
@@ -1656,7 +1656,7 @@
         "defense": 100,
         "speed": 78,
         "spAttack": 85,
-        "spDefense": 0
+        "spDefense": 105
       },
       "abilities": [
         "ABILITY_TORRENT",
@@ -1836,7 +1836,7 @@
         "defense": 100,
         "speed": 78,
         "spAttack": 85,
-        "spDefense": 0
+        "spDefense": 105
       },
       "abilities": [
         "ABILITY_TORRENT",
@@ -1950,7 +1950,7 @@
         "attack": 45,
         "defense": 50,
         "speed": 70,
-        "spAttack": 0,
+        "spAttack": 90,
         "spDefense": 80
       },
       "abilities": [
@@ -2065,7 +2065,7 @@
         "attack": 45,
         "defense": 50,
         "speed": 70,
-        "spAttack": 0,
+        "spAttack": 90,
         "spDefense": 80
       },
       "abilities": [
@@ -2178,11 +2178,11 @@
       ],
       "baseStats": {
         "hp": 65,
-        "attack": 0,
+        "attack": 90,
         "defense": 40,
         "speed": 75,
         "spAttack": 45,
-        "spDefense": 0
+        "spDefense": 80
       },
       "abilities": [
         "ABILITY_SWARM",
@@ -2289,7 +2289,7 @@
       ],
       "baseStats": {
         "hp": 65,
-        "attack": 0,
+        "attack": 90,
         "defense": 40,
         "speed": 145,
         "spAttack": 15,
@@ -2528,7 +2528,7 @@
         "hp": 83,
         "attack": 80,
         "defense": 75,
-        "speed": 0,
+        "speed": 101,
         "spAttack": 70,
         "spDefense": 70
       },
@@ -2632,7 +2632,7 @@
         "hp": 83,
         "attack": 80,
         "defense": 80,
-        "speed": 0,
+        "speed": 101,
         "spAttack": 135,
         "spDefense": 80
       },
@@ -2663,7 +2663,7 @@
         "defense": 35,
         "speed": 72,
         "spAttack": 25,
-        "spDefense": 0
+        "spDefense": 35
       },
       "abilities": [
         "ABILITY_RUN_AWAY",
@@ -2787,7 +2787,7 @@
         "defense": 60,
         "speed": 97,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 70
       },
       "abilities": [
         "ABILITY_RUN_AWAY",
@@ -3365,7 +3365,7 @@
         "defense": 44,
         "speed": 55,
         "spAttack": 40,
-        "spDefense": 0
+        "spDefense": 54
       },
       "abilities": [
         "ABILITY_INTIMIDATE",
@@ -3497,11 +3497,11 @@
       ],
       "baseStats": {
         "hp": 60,
-        "attack": 0,
+        "attack": 95,
         "defense": 69,
         "speed": 80,
         "spAttack": 65,
-        "spDefense": 0
+        "spDefense": 79
       },
       "abilities": [
         "ABILITY_INTIMIDATE",
@@ -3788,10 +3788,10 @@
       "baseStats": {
         "hp": 35,
         "attack": 55,
-        "defense": 0,
+        "defense": 40,
         "speed": 90,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 50
       },
       "abilities": [
         "ABILITY_STATIC",
@@ -3947,10 +3947,10 @@
       "baseStats": {
         "hp": 35,
         "attack": 55,
-        "defense": 0,
+        "defense": 40,
         "speed": 90,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 50
       },
       "abilities": [
         "ABILITY_STATIC",
@@ -3975,10 +3975,10 @@
       "baseStats": {
         "hp": 35,
         "attack": 55,
-        "defense": 0,
+        "defense": 40,
         "speed": 90,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 50
       },
       "abilities": [
         "ABILITY_STATIC",
@@ -4003,10 +4003,10 @@
       "baseStats": {
         "hp": 35,
         "attack": 55,
-        "defense": 0,
+        "defense": 40,
         "speed": 90,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 50
       },
       "abilities": [
         "ABILITY_STATIC",
@@ -4031,10 +4031,10 @@
       "baseStats": {
         "hp": 35,
         "attack": 55,
-        "defense": 0,
+        "defense": 40,
         "speed": 90,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 50
       },
       "abilities": [
         "ABILITY_STATIC",
@@ -4059,10 +4059,10 @@
       "baseStats": {
         "hp": 35,
         "attack": 55,
-        "defense": 0,
+        "defense": 40,
         "speed": 90,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 50
       },
       "abilities": [
         "ABILITY_STATIC",
@@ -4087,10 +4087,10 @@
       "baseStats": {
         "hp": 35,
         "attack": 55,
-        "defense": 0,
+        "defense": 40,
         "speed": 90,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 50
       },
       "abilities": [
         "ABILITY_STATIC",
@@ -4115,10 +4115,10 @@
       "baseStats": {
         "hp": 35,
         "attack": 55,
-        "defense": 0,
+        "defense": 40,
         "speed": 90,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 50
       },
       "abilities": [
         "ABILITY_STATIC",
@@ -4143,10 +4143,10 @@
       "baseStats": {
         "hp": 35,
         "attack": 55,
-        "defense": 0,
+        "defense": 40,
         "speed": 90,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 50
       },
       "abilities": [
         "ABILITY_STATIC",
@@ -4171,10 +4171,10 @@
       "baseStats": {
         "hp": 35,
         "attack": 55,
-        "defense": 0,
+        "defense": 40,
         "speed": 90,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 50
       },
       "abilities": [
         "ABILITY_STATIC",
@@ -4199,10 +4199,10 @@
       "baseStats": {
         "hp": 35,
         "attack": 55,
-        "defense": 0,
+        "defense": 40,
         "speed": 90,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 50
       },
       "abilities": [
         "ABILITY_STATIC",
@@ -4227,10 +4227,10 @@
       "baseStats": {
         "hp": 35,
         "attack": 55,
-        "defense": 0,
+        "defense": 40,
         "speed": 90,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 50
       },
       "abilities": [
         "ABILITY_STATIC",
@@ -4255,10 +4255,10 @@
       "baseStats": {
         "hp": 35,
         "attack": 55,
-        "defense": 0,
+        "defense": 40,
         "speed": 90,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 50
       },
       "abilities": [
         "ABILITY_STATIC",
@@ -4283,10 +4283,10 @@
       "baseStats": {
         "hp": 35,
         "attack": 55,
-        "defense": 0,
+        "defense": 40,
         "speed": 90,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 50
       },
       "abilities": [
         "ABILITY_STATIC",
@@ -4311,10 +4311,10 @@
       "baseStats": {
         "hp": 35,
         "attack": 55,
-        "defense": 0,
+        "defense": 40,
         "speed": 90,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 50
       },
       "abilities": [
         "ABILITY_STATIC",
@@ -4339,10 +4339,10 @@
       "baseStats": {
         "hp": 35,
         "attack": 55,
-        "defense": 0,
+        "defense": 40,
         "speed": 90,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 50
       },
       "abilities": [
         "ABILITY_STATIC",
@@ -4396,9 +4396,9 @@
         "hp": 60,
         "attack": 90,
         "defense": 55,
-        "speed": 0,
+        "speed": 110,
         "spAttack": 90,
-        "spDefense": 0
+        "spDefense": 80
       },
       "abilities": [
         "ABILITY_STATIC",
@@ -4542,7 +4542,7 @@
         "hp": 60,
         "attack": 85,
         "defense": 50,
-        "speed": 0,
+        "speed": 110,
         "spAttack": 95,
         "spDefense": 85
       },
@@ -4689,7 +4689,7 @@
         "attack": 75,
         "defense": 85,
         "speed": 40,
-        "spAttack": 0,
+        "spAttack": 20,
         "spDefense": 30
       },
       "abilities": [
@@ -4851,7 +4851,7 @@
         "attack": 100,
         "defense": 110,
         "speed": 65,
-        "spAttack": 0,
+        "spAttack": 45,
         "spDefense": 55
       },
       "abilities": [
@@ -5524,11 +5524,11 @@
       ],
       "baseStats": {
         "hp": 90,
-        "attack": 0,
+        "attack": 92,
         "defense": 87,
         "speed": 76,
         "spAttack": 75,
-        "spDefense": 0
+        "spDefense": 85
       },
       "abilities": [
         "ABILITY_POISON_POINT",
@@ -5931,10 +5931,10 @@
       ],
       "baseStats": {
         "hp": 81,
-        "attack": 0,
+        "attack": 102,
         "defense": 77,
         "speed": 85,
-        "spAttack": 0,
+        "spAttack": 85,
         "spDefense": 75
       },
       "abilities": [
@@ -6255,7 +6255,7 @@
         "defense": 48,
         "speed": 35,
         "spAttack": 60,
-        "spDefense": 0
+        "spDefense": 65
       },
       "abilities": [
         "ABILITY_CUTE_CHARM",
@@ -6458,8 +6458,8 @@
         "attack": 70,
         "defense": 73,
         "speed": 60,
-        "spAttack": 0,
-        "spDefense": 0
+        "spAttack": 95,
+        "spDefense": 90
       },
       "abilities": [
         "ABILITY_CUTE_CHARM",
@@ -6651,7 +6651,7 @@
         "attack": 41,
         "defense": 40,
         "speed": 65,
-        "spAttack": 0,
+        "spAttack": 50,
         "spDefense": 65
       },
       "abilities": [
@@ -6779,7 +6779,7 @@
         "attack": 76,
         "defense": 75,
         "speed": 100,
-        "spAttack": 0,
+        "spAttack": 81,
         "spDefense": 100
       },
       "abilities": [
@@ -7299,7 +7299,7 @@
         "attack": 45,
         "defense": 20,
         "speed": 20,
-        "spAttack": 0,
+        "spAttack": 45,
         "spDefense": 25
       },
       "abilities": [
@@ -7494,7 +7494,7 @@
         "attack": 70,
         "defense": 45,
         "speed": 45,
-        "spAttack": 0,
+        "spAttack": 75,
         "spDefense": 50
       },
       "abilities": [
@@ -7682,7 +7682,7 @@
         "attack": 45,
         "defense": 35,
         "speed": 55,
-        "spAttack": 0,
+        "spAttack": 30,
         "spDefense": 40
       },
       "abilities": [
@@ -7873,7 +7873,7 @@
         "attack": 80,
         "defense": 70,
         "speed": 90,
-        "spAttack": 0,
+        "spAttack": 65,
         "spDefense": 75
       },
       "abilities": [
@@ -8245,7 +8245,7 @@
         "defense": 55,
         "speed": 30,
         "spAttack": 75,
-        "spDefense": 0
+        "spDefense": 65
       },
       "abilities": [
         "ABILITY_CHLOROPHYLL",
@@ -8366,7 +8366,7 @@
         "defense": 70,
         "speed": 40,
         "spAttack": 85,
-        "spDefense": 0
+        "spDefense": 75
       },
       "abilities": [
         "ABILITY_CHLOROPHYLL",
@@ -8482,8 +8482,8 @@
         "attack": 80,
         "defense": 85,
         "speed": 50,
-        "spAttack": 0,
-        "spDefense": 0
+        "spAttack": 110,
+        "spDefense": 90
       },
       "abilities": [
         "ABILITY_CHLOROPHYLL",
@@ -8593,7 +8593,7 @@
       "baseStats": {
         "hp": 75,
         "attack": 80,
-        "defense": 0,
+        "defense": 95,
         "speed": 50,
         "spAttack": 90,
         "spDefense": 100
@@ -8709,7 +8709,7 @@
         "attack": 70,
         "defense": 55,
         "speed": 25,
-        "spAttack": 0,
+        "spAttack": 45,
         "spDefense": 55
       },
       "abilities": [
@@ -8838,7 +8838,7 @@
         "attack": 95,
         "defense": 80,
         "speed": 30,
-        "spAttack": 0,
+        "spAttack": 60,
         "spDefense": 80
       },
       "abilities": [
@@ -8965,7 +8965,7 @@
         "defense": 50,
         "speed": 45,
         "spAttack": 40,
-        "spDefense": 0
+        "spDefense": 55
       },
       "abilities": [
         "ABILITY_COMPOUND_EYES",
@@ -9081,7 +9081,7 @@
         "defense": 60,
         "speed": 90,
         "spAttack": 90,
-        "spDefense": 0
+        "spDefense": 75
       },
       "abilities": [
         "ABILITY_SHIELD_DUST",
@@ -9202,7 +9202,7 @@
         "attack": 55,
         "defense": 25,
         "speed": 95,
-        "spAttack": 0,
+        "spAttack": 35,
         "spDefense": 45
       },
       "abilities": [
@@ -9322,10 +9322,10 @@
       ],
       "baseStats": {
         "hp": 35,
-        "attack": 0,
+        "attack": 100,
         "defense": 50,
         "speed": 120,
-        "spAttack": 0,
+        "spAttack": 50,
         "spDefense": 70
       },
       "abilities": [
@@ -10501,7 +10501,7 @@
         "attack": 52,
         "defense": 48,
         "speed": 55,
-        "spAttack": 0,
+        "spAttack": 65,
         "spDefense": 50
       },
       "abilities": [
@@ -10669,7 +10669,7 @@
         "attack": 82,
         "defense": 78,
         "speed": 85,
-        "spAttack": 0,
+        "spAttack": 95,
         "spDefense": 80
       },
       "abilities": [
@@ -10836,7 +10836,7 @@
         "defense": 35,
         "speed": 70,
         "spAttack": 35,
-        "spDefense": 0
+        "spDefense": 45
       },
       "abilities": [
         "ABILITY_VITAL_SPIRIT",
@@ -10995,7 +10995,7 @@
         "defense": 60,
         "speed": 95,
         "spAttack": 60,
-        "spDefense": 0
+        "spDefense": 70
       },
       "abilities": [
         "ABILITY_VITAL_SPIRIT",
@@ -11264,7 +11264,7 @@
         "attack": 70,
         "defense": 45,
         "speed": 60,
-        "spAttack": 0,
+        "spAttack": 70,
         "spDefense": 50
       },
       "abilities": [
@@ -11386,7 +11386,7 @@
         "attack": 110,
         "defense": 80,
         "speed": 95,
-        "spAttack": 0,
+        "spAttack": 100,
         "spDefense": 80
       },
       "abilities": [
@@ -11985,11 +11985,11 @@
       ],
       "baseStats": {
         "hp": 90,
-        "attack": 0,
+        "attack": 95,
         "defense": 95,
         "speed": 70,
         "spAttack": 70,
-        "spDefense": 0
+        "spDefense": 90
       },
       "abilities": [
         "ABILITY_WATER_ABSORB",
@@ -12274,7 +12274,7 @@
         "defense": 15,
         "speed": 90,
         "spAttack": 105,
-        "spDefense": 0
+        "spDefense": 55
       },
       "abilities": [
         "ABILITY_SYNCHRONIZE",
@@ -12412,7 +12412,7 @@
         "defense": 30,
         "speed": 105,
         "spAttack": 120,
-        "spDefense": 0
+        "spDefense": 70
       },
       "abilities": [
         "ABILITY_SYNCHRONIZE",
@@ -12559,7 +12559,7 @@
         "defense": 45,
         "speed": 120,
         "spAttack": 135,
-        "spDefense": 0
+        "spDefense": 85
       },
       "abilities": [
         "ABILITY_SYNCHRONIZE",
@@ -12921,7 +12921,7 @@
         "defense": 70,
         "speed": 45,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 60
       },
       "abilities": [
         "ABILITY_GUTS",
@@ -13061,7 +13061,7 @@
         "defense": 80,
         "speed": 55,
         "spAttack": 65,
-        "spDefense": 0
+        "spDefense": 85
       },
       "abilities": [
         "ABILITY_GUTS",
@@ -13250,7 +13250,7 @@
         "defense": 80,
         "speed": 55,
         "spAttack": 65,
-        "spDefense": 0
+        "spDefense": 85
       },
       "abilities": [
         "ABILITY_GUTS",
@@ -13280,7 +13280,7 @@
         "defense": 35,
         "speed": 40,
         "spAttack": 70,
-        "spDefense": 0
+        "spDefense": 30
       },
       "abilities": [
         "ABILITY_CHLOROPHYLL",
@@ -13401,7 +13401,7 @@
         "defense": 50,
         "speed": 55,
         "spAttack": 85,
-        "spDefense": 0
+        "spDefense": 45
       },
       "abilities": [
         "ABILITY_CHLOROPHYLL",
@@ -13518,7 +13518,7 @@
         "defense": 65,
         "speed": 70,
         "spAttack": 100,
-        "spDefense": 0
+        "spDefense": 60
       },
       "abilities": [
         "ABILITY_CHLOROPHYLL",
@@ -13635,7 +13635,7 @@
         "attack": 40,
         "defense": 35,
         "speed": 70,
-        "spAttack": 0,
+        "spAttack": 50,
         "spDefense": 100
       },
       "abilities": [
@@ -13907,7 +13907,7 @@
         "attack": 70,
         "defense": 65,
         "speed": 100,
-        "spAttack": 0,
+        "spAttack": 80,
         "spDefense": 120
       },
       "abilities": [
@@ -14360,11 +14360,11 @@
       ],
       "baseStats": {
         "hp": 80,
-        "attack": 0,
+        "attack": 120,
         "defense": 130,
         "speed": 45,
         "spAttack": 55,
-        "spDefense": 0
+        "spDefense": 65
       },
       "abilities": [
         "ABILITY_ROCK_HEAD",
@@ -14785,7 +14785,7 @@
       ],
       "baseStats": {
         "hp": 80,
-        "attack": 0,
+        "attack": 120,
         "defense": 130,
         "speed": 45,
         "spAttack": 55,
@@ -15494,7 +15494,7 @@
         "attack": 75,
         "defense": 110,
         "speed": 30,
-        "spAttack": 0,
+        "spAttack": 100,
         "spDefense": 80
       },
       "abilities": [
@@ -16324,7 +16324,7 @@
         "defense": 70,
         "speed": 45,
         "spAttack": 95,
-        "spDefense": 0
+        "spDefense": 55
       },
       "abilities": [
         "ABILITY_MAGNET_PULL",
@@ -16440,7 +16440,7 @@
         "defense": 95,
         "speed": 70,
         "spAttack": 120,
-        "spDefense": 0
+        "spDefense": 70
       },
       "abilities": [
         "ABILITY_MAGNET_PULL",
@@ -16666,11 +16666,11 @@
       ],
       "baseStats": {
         "hp": 52,
-        "attack": 0,
+        "attack": 90,
         "defense": 55,
         "speed": 60,
         "spAttack": 58,
-        "spDefense": 0
+        "spDefense": 62
       },
       "abilities": [
         "ABILITY_KEEN_EYE",
@@ -16796,7 +16796,7 @@
       ],
       "baseStats": {
         "hp": 52,
-        "attack": 0,
+        "attack": 90,
         "defense": 55,
         "speed": 55,
         "spAttack": 58,
@@ -17098,7 +17098,7 @@
         "hp": 60,
         "attack": 110,
         "defense": 70,
-        "speed": 0,
+        "speed": 110,
         "spAttack": 60,
         "spDefense": 60
       },
@@ -17215,7 +17215,7 @@
         "attack": 45,
         "defense": 55,
         "speed": 45,
-        "spAttack": 0,
+        "spAttack": 45,
         "spDefense": 70
       },
       "abilities": [
@@ -17350,7 +17350,7 @@
         "attack": 70,
         "defense": 80,
         "speed": 70,
-        "spAttack": 0,
+        "spAttack": 70,
         "spDefense": 95
       },
       "abilities": [
@@ -17481,7 +17481,7 @@
         "defense": 50,
         "speed": 25,
         "spAttack": 40,
-        "spDefense": 0
+        "spDefense": 50
       },
       "abilities": [
         "ABILITY_STENCH",
@@ -17616,7 +17616,7 @@
         "defense": 75,
         "speed": 50,
         "spAttack": 65,
-        "spDefense": 0
+        "spDefense": 100
       },
       "abilities": [
         "ABILITY_STENCH",
@@ -18029,7 +18029,7 @@
         "defense": 100,
         "speed": 40,
         "spAttack": 45,
-        "spDefense": 0
+        "spDefense": 25
       },
       "abilities": [
         "ABILITY_SHELL_ARMOR",
@@ -18146,7 +18146,7 @@
         "defense": 180,
         "speed": 70,
         "spAttack": 85,
-        "spDefense": 0
+        "spDefense": 45
       },
       "abilities": [
         "ABILITY_SHELL_ARMOR",
@@ -18273,7 +18273,7 @@
         "defense": 30,
         "speed": 80,
         "spAttack": 100,
-        "spDefense": 0
+        "spDefense": 35
       },
       "abilities": [
         "ABILITY_LEVITATE"
@@ -18475,7 +18475,7 @@
         "defense": 45,
         "speed": 95,
         "spAttack": 115,
-        "spDefense": 0
+        "spDefense": 55
       },
       "abilities": [
         "ABILITY_LEVITATE"
@@ -18617,7 +18617,7 @@
         "defense": 60,
         "speed": 110,
         "spAttack": 130,
-        "spDefense": 0
+        "spDefense": 75
       },
       "abilities": [],
       "eggCycles": 20,
@@ -18848,7 +18848,7 @@
         "defense": 60,
         "speed": 110,
         "spAttack": 130,
-        "spDefense": 0
+        "spDefense": 75
       },
       "abilities": [],
       "eggCycles": 20,
@@ -18874,7 +18874,7 @@
         "defense": 160,
         "speed": 70,
         "spAttack": 30,
-        "spDefense": 0
+        "spDefense": 45
       },
       "abilities": [
         "ABILITY_ROCK_HEAD",
@@ -19224,7 +19224,7 @@
         "attack": 48,
         "defense": 45,
         "speed": 42,
-        "spAttack": 0,
+        "spAttack": 43,
         "spDefense": 90
       },
       "abilities": [
@@ -19380,7 +19380,7 @@
         "attack": 73,
         "defense": 70,
         "speed": 67,
-        "spAttack": 0,
+        "spAttack": 73,
         "spDefense": 115
       },
       "abilities": [
@@ -19929,7 +19929,7 @@
         "hp": 60,
         "attack": 50,
         "defense": 70,
-        "speed": 0,
+        "speed": 150,
         "spAttack": 80,
         "spDefense": 80
       },
@@ -20125,7 +20125,7 @@
         "hp": 60,
         "attack": 50,
         "defense": 70,
-        "speed": 0,
+        "speed": 150,
         "spAttack": 80,
         "spDefense": 80
       },
@@ -20213,7 +20213,7 @@
         "defense": 80,
         "speed": 40,
         "spAttack": 60,
-        "spDefense": 0
+        "spDefense": 45
       },
       "abilities": [
         "ABILITY_CHLOROPHYLL",
@@ -20347,7 +20347,7 @@
         "defense": 85,
         "speed": 55,
         "spAttack": 125,
-        "spDefense": 0
+        "spDefense": 65
       },
       "abilities": [
         "ABILITY_CHLOROPHYLL",
@@ -20479,7 +20479,7 @@
         "defense": 85,
         "speed": 45,
         "spAttack": 125,
-        "spDefense": 0
+        "spDefense": 65
       },
       "abilities": [
         "ABILITY_FRISK",
@@ -20618,7 +20618,7 @@
         "defense": 95,
         "speed": 35,
         "spAttack": 40,
-        "spDefense": 0
+        "spDefense": 50
       },
       "abilities": [
         "ABILITY_ROCK_HEAD",
@@ -20766,7 +20766,7 @@
         "defense": 110,
         "speed": 45,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 80
       },
       "abilities": [
         "ABILITY_ROCK_HEAD",
@@ -21233,7 +21233,7 @@
         "defense": 53,
         "speed": 87,
         "spAttack": 35,
-        "spDefense": 0
+        "spDefense": 110
       },
       "abilities": [
         "ABILITY_LIMBER",
@@ -21367,7 +21367,7 @@
         "defense": 79,
         "speed": 76,
         "spAttack": 35,
-        "spDefense": 0
+        "spDefense": 110
       },
       "abilities": [
         "ABILITY_KEEN_EYE",
@@ -21618,7 +21618,7 @@
         "defense": 75,
         "speed": 30,
         "spAttack": 60,
-        "spDefense": 0
+        "spDefense": 75
       },
       "abilities": [
         "ABILITY_OWN_TEMPO",
@@ -21919,7 +21919,7 @@
         "defense": 95,
         "speed": 35,
         "spAttack": 60,
-        "spDefense": 0
+        "spDefense": 45
       },
       "abilities": [
         "ABILITY_LEVITATE",
@@ -22044,7 +22044,7 @@
         "defense": 120,
         "speed": 60,
         "spAttack": 85,
-        "spDefense": 0
+        "spDefense": 70
       },
       "abilities": [
         "ABILITY_LEVITATE",
@@ -22941,7 +22941,7 @@
         "attack": 5,
         "defense": 5,
         "speed": 50,
-        "spAttack": 0,
+        "spAttack": 35,
         "spDefense": 105
       },
       "abilities": [
@@ -23305,7 +23305,7 @@
         "defense": 115,
         "speed": 60,
         "spAttack": 100,
-        "spDefense": 0
+        "spDefense": 40
       },
       "abilities": [
         "ABILITY_CHLOROPHYLL",
@@ -23549,7 +23549,7 @@
         "defense": 80,
         "speed": 90,
         "spAttack": 40,
-        "spDefense": 0
+        "spDefense": 80
       },
       "abilities": [
         "ABILITY_EARLY_BIRD",
@@ -23735,7 +23735,7 @@
         "defense": 70,
         "speed": 60,
         "spAttack": 70,
-        "spDefense": 0
+        "spDefense": 25
       },
       "abilities": [
         "ABILITY_SWIFT_SWIM",
@@ -23860,7 +23860,7 @@
         "defense": 95,
         "speed": 85,
         "spAttack": 95,
-        "spDefense": 0
+        "spDefense": 45
       },
       "abilities": [
         "ABILITY_POISON_POINT",
@@ -24119,7 +24119,7 @@
         "attack": 67,
         "defense": 60,
         "speed": 63,
-        "spAttack": 0,
+        "spAttack": 35,
         "spDefense": 50
       },
       "abilities": [
@@ -24284,7 +24284,7 @@
         "attack": 92,
         "defense": 65,
         "speed": 68,
-        "spAttack": 0,
+        "spAttack": 65,
         "spDefense": 80
       },
       "abilities": [
@@ -24391,7 +24391,7 @@
         "defense": 55,
         "speed": 85,
         "spAttack": 70,
-        "spDefense": 0
+        "spDefense": 55
       },
       "abilities": [
         "ABILITY_ILLUMINATE",
@@ -24597,7 +24597,7 @@
         "defense": 85,
         "speed": 115,
         "spAttack": 100,
-        "spDefense": 0
+        "spDefense": 85
       },
       "abilities": [
         "ABILITY_ILLUMINATE",
@@ -24884,7 +24884,7 @@
         "defense": 65,
         "speed": 90,
         "spAttack": 100,
-        "spDefense": 0
+        "spDefense": 120
       },
       "abilities": [
         "ABILITY_SOUNDPROOF",
@@ -25306,7 +25306,7 @@
         "defense": 80,
         "speed": 105,
         "spAttack": 55,
-        "spDefense": 0
+        "spDefense": 80
       },
       "abilities": [
         "ABILITY_SWARM",
@@ -25844,7 +25844,7 @@
         "attack": 50,
         "defense": 35,
         "speed": 95,
-        "spAttack": 0,
+        "spAttack": 115,
         "spDefense": 95
       },
       "abilities": [
@@ -26132,7 +26132,7 @@
         "attack": 83,
         "defense": 57,
         "speed": 105,
-        "spAttack": 0,
+        "spAttack": 95,
         "spDefense": 85
       },
       "abilities": [
@@ -26535,7 +26535,7 @@
         "attack": 95,
         "defense": 57,
         "speed": 93,
-        "spAttack": 0,
+        "spAttack": 100,
         "spDefense": 85
       },
       "abilities": [
@@ -26816,7 +26816,7 @@
         "defense": 100,
         "speed": 85,
         "spAttack": 55,
-        "spDefense": 0
+        "spDefense": 70
       },
       "abilities": [
         "ABILITY_HYPER_CUTTER",
@@ -26967,7 +26967,7 @@
         "attack": 100,
         "defense": 95,
         "speed": 110,
-        "spAttack": 0,
+        "spAttack": 40,
         "spDefense": 70
       },
       "abilities": [
@@ -27372,7 +27372,7 @@
         "attack": 10,
         "defense": 55,
         "speed": 80,
-        "spAttack": 0,
+        "spAttack": 15,
         "spDefense": 20
       },
       "abilities": [
@@ -27561,7 +27561,7 @@
         "attack": 125,
         "defense": 79,
         "speed": 81,
-        "spAttack": 0,
+        "spAttack": 60,
         "spDefense": 100
       },
       "abilities": [
@@ -27752,7 +27752,7 @@
         "attack": 85,
         "defense": 80,
         "speed": 60,
-        "spAttack": 0,
+        "spAttack": 85,
         "spDefense": 95
       },
       "abilities": [
@@ -27912,7 +27912,7 @@
         "attack": 85,
         "defense": 80,
         "speed": 60,
-        "spAttack": 0,
+        "spAttack": 85,
         "spDefense": 95
       },
       "abilities": [
@@ -28074,7 +28074,7 @@
         "attack": 55,
         "defense": 50,
         "speed": 55,
-        "spAttack": 0,
+        "spAttack": 45,
         "spDefense": 65
       },
       "abilities": [
@@ -28235,7 +28235,7 @@
         "attack": 55,
         "defense": 50,
         "speed": 55,
-        "spAttack": 0,
+        "spAttack": 45,
         "spDefense": 65
       },
       "abilities": [
@@ -28294,7 +28294,7 @@
         "defense": 60,
         "speed": 65,
         "spAttack": 110,
-        "spDefense": 0
+        "spDefense": 95
       },
       "abilities": [
         "ABILITY_WATER_ABSORB",
@@ -28431,7 +28431,7 @@
         "defense": 60,
         "speed": 130,
         "spAttack": 110,
-        "spDefense": 0
+        "spDefense": 95
       },
       "abilities": [
         "ABILITY_VOLT_ABSORB",
@@ -28559,7 +28559,7 @@
         "attack": 130,
         "defense": 60,
         "speed": 65,
-        "spAttack": 0,
+        "spAttack": 95,
         "spDefense": 110
       },
       "abilities": [
@@ -29353,7 +29353,7 @@
         "attack": 60,
         "defense": 70,
         "speed": 40,
-        "spAttack": 0,
+        "spAttack": 85,
         "spDefense": 75
       },
       "abilities": [
@@ -29825,7 +29825,7 @@
         "defense": 100,
         "speed": 35,
         "spAttack": 90,
-        "spDefense": 0
+        "spDefense": 55
       },
       "abilities": [
         "ABILITY_SWIFT_SWIM",
@@ -29948,7 +29948,7 @@
         "defense": 125,
         "speed": 55,
         "spAttack": 115,
-        "spDefense": 0
+        "spDefense": 70
       },
       "abilities": [
         "ABILITY_SWIFT_SWIM",
@@ -30351,7 +30351,7 @@
         "attack": 80,
         "defense": 90,
         "speed": 55,
-        "spAttack": 0,
+        "spAttack": 55,
         "spDefense": 45
       },
       "abilities": [
@@ -30477,7 +30477,7 @@
         "attack": 115,
         "defense": 105,
         "speed": 80,
-        "spAttack": 0,
+        "spAttack": 65,
         "spDefense": 70
       },
       "abilities": [
@@ -30909,7 +30909,7 @@
         "defense": 65,
         "speed": 130,
         "spAttack": 60,
-        "spDefense": 0
+        "spDefense": 75
       },
       "abilities": [
         "ABILITY_ROCK_HEAD",
@@ -31258,7 +31258,7 @@
         "defense": 65,
         "speed": 30,
         "spAttack": 65,
-        "spDefense": 0
+        "spDefense": 110
       },
       "abilities": [
         "ABILITY_IMMUNITY",
@@ -31423,7 +31423,7 @@
         "defense": 65,
         "speed": 30,
         "spAttack": 65,
-        "spDefense": 0
+        "spDefense": 110
       },
       "abilities": [
         "ABILITY_IMMUNITY",
@@ -31452,7 +31452,7 @@
         "attack": 85,
         "defense": 100,
         "speed": 85,
-        "spAttack": 0,
+        "spAttack": 95,
         "spDefense": 125
       },
       "abilities": [
@@ -31687,7 +31687,7 @@
         "defense": 85,
         "speed": 100,
         "spAttack": 125,
-        "spDefense": 0
+        "spDefense": 90
       },
       "abilities": [
         "ABILITY_PRESSURE",
@@ -31923,7 +31923,7 @@
         "defense": 90,
         "speed": 90,
         "spAttack": 125,
-        "spDefense": 0
+        "spDefense": 85
       },
       "abilities": [
         "ABILITY_PRESSURE",
@@ -32572,7 +32572,7 @@
         "defense": 90,
         "speed": 130,
         "spAttack": 154,
-        "spDefense": 0
+        "spDefense": 90
       },
       "abilities": [
         "ABILITY_PRESSURE",
@@ -35321,7 +35321,7 @@
         "attack": 50,
         "defense": 50,
         "speed": 70,
-        "spAttack": 0,
+        "spAttack": 86,
         "spDefense": 96
       },
       "abilities": [
@@ -35797,7 +35797,7 @@
         "defense": 70,
         "speed": 40,
         "spAttack": 60,
-        "spDefense": 0
+        "spDefense": 70
       },
       "abilities": [
         "ABILITY_SWARM",
@@ -36151,7 +36151,7 @@
       "id": "SPECIES_TOGEPI",
       "name": "Togepi",
       "types": [
-        "TOGEPI_FAMILY_TYPE"
+        "TYPE_FAIRY"
       ],
       "baseStats": {
         "hp": 35,
@@ -36308,8 +36308,7 @@
       "id": "SPECIES_TOGETIC",
       "name": "Togetic",
       "types": [
-        "TOGEPI_FAMILY_TYPE",
-        "TYPE_FLYING"
+        "TYPE_FAIRY"
       ],
       "baseStats": {
         "hp": 55,
@@ -36471,8 +36470,7 @@
       "id": "SPECIES_TOGEKISS",
       "name": "Togekiss",
       "types": [
-        "TOGEPI_FAMILY_TYPE",
-        "TYPE_FLYING"
+        "TYPE_FAIRY"
       ],
       "baseStats": {
         "hp": 85,
@@ -37133,7 +37131,7 @@
       "baseStats": {
         "hp": 90,
         "attack": 75,
-        "defense": 0,
+        "defense": 85,
         "speed": 55,
         "spAttack": 115,
         "spDefense": 90
@@ -37265,7 +37263,7 @@
       "baseStats": {
         "hp": 90,
         "attack": 95,
-        "defense": 0,
+        "defense": 85,
         "speed": 45,
         "spAttack": 165,
         "spDefense": 110
@@ -37573,7 +37571,7 @@
         "attack": 50,
         "defense": 80,
         "speed": 50,
-        "spAttack": 0,
+        "spAttack": 60,
         "spDefense": 80
       },
       "abilities": [
@@ -38228,7 +38226,7 @@
         "defense": 70,
         "speed": 110,
         "spAttack": 55,
-        "spDefense": 0
+        "spDefense": 95
       },
       "abilities": [
         "ABILITY_CHLOROPHYLL",
@@ -41559,7 +41557,7 @@
       "baseStats": {
         "hp": 65,
         "attack": 95,
-        "defense": 0,
+        "defense": 85,
         "speed": 85,
         "spAttack": 55,
         "spDefense": 55
@@ -41694,7 +41692,7 @@
       "baseStats": {
         "hp": 65,
         "attack": 95,
-        "defense": 0,
+        "defense": 85,
         "speed": 85,
         "spAttack": 55,
         "spDefense": 55
@@ -43403,11 +43401,11 @@
         "TYPE_ROCK"
       ],
       "baseStats": {
-        "hp": 0,
+        "hp": 60,
         "attack": 50,
         "defense": 120,
         "speed": 30,
-        "spAttack": 0,
+        "spAttack": 90,
         "spDefense": 80
       },
       "abilities": [
@@ -43896,12 +43894,12 @@
         "TYPE_ROCK"
       ],
       "baseStats": {
-        "hp": 0,
+        "hp": 65,
         "attack": 55,
-        "defense": 0,
+        "defense": 95,
         "speed": 35,
         "spAttack": 65,
-        "spDefense": 0
+        "spDefense": 95
       },
       "abilities": [
         "ABILITY_HUSTLE",
@@ -44031,12 +44029,12 @@
         "TYPE_GHOST"
       ],
       "baseStats": {
-        "hp": 0,
+        "hp": 65,
         "attack": 55,
-        "defense": 0,
+        "defense": 95,
         "speed": 30,
         "spAttack": 65,
-        "spDefense": 0
+        "spDefense": 95
       },
       "abilities": [
         "ABILITY_WEAK_ARMOR",
@@ -44773,7 +44771,7 @@
         "TYPE_FLYING"
       ],
       "baseStats": {
-        "hp": 0,
+        "hp": 85,
         "attack": 40,
         "defense": 70,
         "speed": 70,
@@ -49560,7 +49558,7 @@
         "attack": 70,
         "defense": 50,
         "speed": 65,
-        "spAttack": 0,
+        "spAttack": 100,
         "spDefense": 50
       },
       "abilities": [
@@ -50725,7 +50723,7 @@
         "attack": 85,
         "defense": 60,
         "speed": 125,
-        "spAttack": 0,
+        "spAttack": 75,
         "spDefense": 50
       },
       "abilities": [
@@ -51167,7 +51165,7 @@
         "attack": 50,
         "defense": 100,
         "speed": 65,
-        "spAttack": 0,
+        "spAttack": 95,
         "spDefense": 70
       },
       "abilities": [
@@ -51297,7 +51295,7 @@
       "name": "Ralts",
       "types": [
         "TYPE_PSYCHIC",
-        "RALTS_FAMILY_TYPE2"
+        "TYPE_FAIRY"
       ],
       "baseStats": {
         "hp": 28,
@@ -51443,7 +51441,7 @@
       "name": "Kirlia",
       "types": [
         "TYPE_PSYCHIC",
-        "RALTS_FAMILY_TYPE2"
+        "TYPE_FAIRY"
       ],
       "baseStats": {
         "hp": 38,
@@ -51592,7 +51590,7 @@
       "name": "Gardevoir",
       "types": [
         "TYPE_PSYCHIC",
-        "RALTS_FAMILY_TYPE2"
+        "TYPE_FAIRY"
       ],
       "baseStats": {
         "hp": 68,
@@ -51743,7 +51741,7 @@
       "name": "Gardevoir",
       "types": [
         "TYPE_PSYCHIC",
-        "RALTS_FAMILY_TYPE2"
+        "TYPE_FAIRY"
       ],
       "baseStats": {
         "hp": 68,
@@ -52109,8 +52107,8 @@
         "hp": 70,
         "attack": 60,
         "defense": 62,
-        "speed": 0,
-        "spAttack": 0,
+        "speed": 80,
+        "spAttack": 100,
         "spDefense": 82
       },
       "abilities": [
@@ -53474,7 +53472,7 @@
         "defense": 63,
         "speed": 68,
         "spAttack": 91,
-        "spDefense": 0
+        "spDefense": 73
       },
       "abilities": [
         "ABILITY_SOUNDPROOF",
@@ -54274,7 +54272,7 @@
         "hp": 70,
         "attack": 65,
         "defense": 65,
-        "speed": 0,
+        "speed": 90,
         "spAttack": 55,
         "spDefense": 55
       },
@@ -56025,10 +56023,10 @@
       "baseStats": {
         "hp": 65,
         "attack": 73,
-        "defense": 0,
+        "defense": 75,
         "speed": 85,
         "spAttack": 47,
-        "spDefense": 0
+        "spDefense": 85
       },
       "abilities": [
         "ABILITY_ILLUMINATE",
@@ -56150,10 +56148,10 @@
       "baseStats": {
         "hp": 65,
         "attack": 47,
-        "defense": 0,
+        "defense": 75,
         "speed": 85,
         "spAttack": 73,
-        "spDefense": 0
+        "spDefense": 85
       },
       "abilities": [
         "ABILITY_OBLIVIOUS",
@@ -56496,7 +56494,7 @@
       "baseStats": {
         "hp": 60,
         "attack": 70,
-        "defense": 0,
+        "defense": 65,
         "speed": 90,
         "spAttack": 125,
         "spDefense": 105
@@ -59639,7 +59637,7 @@
         "TYPE_PSYCHIC"
       ],
       "baseStats": {
-        "hp": 0,
+        "hp": 90,
         "attack": 55,
         "defense": 65,
         "speed": 70,
@@ -59768,7 +59766,7 @@
         "TYPE_PSYCHIC"
       ],
       "baseStats": {
-        "hp": 0,
+        "hp": 90,
         "attack": 95,
         "defense": 85,
         "speed": 70,
@@ -62671,12 +62669,12 @@
         "TYPE_PSYCHIC"
       ],
       "baseStats": {
-        "hp": 0,
+        "hp": 75,
         "attack": 50,
-        "defense": 0,
+        "defense": 80,
         "speed": 65,
         "spAttack": 95,
-        "spDefense": 0
+        "spDefense": 90
       },
       "abilities": [
         "ABILITY_LEVITATE"
@@ -68722,7 +68720,7 @@
         "defense": 70,
         "speed": 100,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 60
       },
       "abilities": [
         "ABILITY_INTIMIDATE",
@@ -76715,10 +76713,10 @@
       "baseStats": {
         "hp": 120,
         "attack": 70,
-        "defense": 0,
+        "defense": 110,
         "speed": 85,
         "spAttack": 75,
-        "spDefense": 0
+        "spDefense": 120
       },
       "abilities": [
         "ABILITY_LEVITATE"
@@ -79976,7 +79974,7 @@
       ],
       "baseStats": {
         "hp": 85,
-        "attack": 0,
+        "attack": 110,
         "defense": 90,
         "speed": 80,
         "spAttack": 45,
@@ -81589,7 +81587,7 @@
       ],
       "baseStats": {
         "hp": 80,
-        "attack": 0,
+        "attack": 115,
         "defense": 80,
         "speed": 93,
         "spAttack": 65,
@@ -82075,7 +82073,7 @@
         "defense": 130,
         "speed": 25,
         "spAttack": 60,
-        "spDefense": 0
+        "spDefense": 80
       },
       "abilities": [
         "ABILITY_STURDY",
@@ -82211,7 +82209,7 @@
         "TYPE_FLYING"
       ],
       "baseStats": {
-        "hp": 0,
+        "hp": 65,
         "attack": 45,
         "defense": 43,
         "speed": 72,
@@ -83528,7 +83526,7 @@
       ],
       "baseStats": {
         "hp": 105,
-        "attack": 0,
+        "attack": 95,
         "defense": 75,
         "speed": 74,
         "spAttack": 85,
@@ -84066,7 +84064,7 @@
         "defense": 80,
         "speed": 92,
         "spAttack": 70,
-        "spDefense": 0
+        "spDefense": 80
       },
       "abilities": [
         "ABILITY_SWARM",
@@ -84364,7 +84362,7 @@
       ],
       "baseStats": {
         "hp": 60,
-        "attack": 0,
+        "attack": 100,
         "defense": 89,
         "speed": 112,
         "spAttack": 55,
@@ -85528,7 +85526,7 @@
       "baseStats": {
         "hp": 95,
         "attack": 117,
-        "defense": 0,
+        "defense": 80,
         "speed": 92,
         "spAttack": 65,
         "spDefense": 70
@@ -86297,7 +86295,7 @@
       ],
       "baseStats": {
         "hp": 70,
-        "attack": 0,
+        "attack": 105,
         "defense": 125,
         "speed": 45,
         "spAttack": 65,
@@ -92970,7 +92968,7 @@
       ],
       "baseStats": {
         "hp": 95,
-        "attack": 0,
+        "attack": 130,
         "defense": 80,
         "speed": 50,
         "spAttack": 70,
@@ -93099,9 +93097,9 @@
         "TYPE_ICE"
       ],
       "baseStats": {
-        "hp": 0,
+        "hp": 80,
         "attack": 50,
-        "defense": 0,
+        "defense": 50,
         "speed": 105,
         "spAttack": 95,
         "spDefense": 135
@@ -103430,10 +103428,10 @@
       "baseStats": {
         "hp": 60,
         "attack": 50,
-        "defense": 0,
+        "defense": 140,
         "speed": 60,
         "spAttack": 50,
-        "spDefense": 0
+        "spDefense": 140
       },
       "abilities": [
         "ABILITY_STANCE_CHANGE"
@@ -103457,10 +103455,10 @@
       ],
       "baseStats": {
         "hp": 60,
-        "attack": 0,
+        "attack": 140,
         "defense": 50,
         "speed": 60,
-        "spAttack": 0,
+        "spAttack": 140,
         "spDefense": 50
       },
       "abilities": [
@@ -129066,7 +129064,7 @@
       ],
       "baseStats": {
         "hp": 92,
-        "attack": 0,
+        "attack": 120,
         "defense": 115,
         "speed": 138,
         "spAttack": 80,
@@ -129094,7 +129092,7 @@
       ],
       "baseStats": {
         "hp": 92,
-        "attack": 0,
+        "attack": 150,
         "defense": 115,
         "speed": 148,
         "spAttack": 80,
@@ -129121,7 +129119,7 @@
       ],
       "baseStats": {
         "hp": 92,
-        "attack": 0,
+        "attack": 120,
         "defense": 115,
         "speed": 138,
         "spAttack": 80,
@@ -129149,11 +129147,11 @@
       ],
       "baseStats": {
         "hp": 92,
-        "attack": 0,
-        "defense": 0,
+        "attack": 120,
+        "defense": 140,
         "speed": 128,
         "spAttack": 80,
-        "spDefense": 0
+        "spDefense": 140
       },
       "abilities": [
         "ABILITY_DAUNTLESS_SHIELD"
@@ -158120,7 +158118,7 @@
           "nature": "NATURE_BRAVE"
         },
         {
-          "species": "SPECIES_GOURGEIST",
+          "species": "SPECIES_GOURGEIST_AVERAGE",
           "moves": [
             "MOVE_FLAME_CHARGE",
             "MOVE_POLTERGEIST",
@@ -158923,7 +158921,7 @@
           "nature": "NATURE_ADAMANT"
         },
         {
-          "species": "SPECIES_PALAFIN",
+          "species": "SPECIES_PALAFIN_ZERO",
           "moves": [
             "MOVE_JET_PUNCH",
             "MOVE_FLIP_TURN",
@@ -159421,7 +159419,7 @@
           "nature": "NATURE_JOLLY"
         },
         {
-          "species": "SPECIES_LYCANROC",
+          "species": "SPECIES_LYCANROC_MIDDAY",
           "moves": [
             "MOVE_SWORDS_DANCE",
             "MOVE_ROCK_BLAST",
@@ -160578,7 +160576,7 @@
           "nature": "NATURE_JOLLY"
         },
         {
-          "species": "SPECIES_AEGISLASH",
+          "species": "SPECIES_AEGISLASH_SHIELD",
           "moves": [
             "MOVE_SHADOW_BALL",
             "MOVE_FLASH_CANNON",
@@ -160627,7 +160625,7 @@
       "battleType": "Singles",
       "party": [
         {
-          "species": "SPECIES_SAWSBUCK",
+          "species": "SPECIES_SAWSBUCK_SPRING",
           "moves": [
             "MOVE_DOUBLE_EDGE",
             "MOVE_HORN_LEECH",
@@ -160678,7 +160676,7 @@
           "nature": "NATURE_BOLD"
         },
         {
-          "species": "SPECIES_INDEEDEE",
+          "species": "SPECIES_INDEEDEE_M",
           "moves": [
             "MOVE_EXPANDING_FORCE",
             "MOVE_MYSTICAL_FIRE",
@@ -160924,7 +160922,7 @@
           "nature": "NATURE_NAIVE"
         },
         {
-          "species": "SPECIES_SQUAWKABILLY",
+          "species": "SPECIES_SQUAWKABILLY_GREEN",
           "moves": [
             "MOVE_FACADE",
             "MOVE_BRAVE_BIRD",
@@ -162183,7 +162181,7 @@
           "nature": "NATURE_MODEST"
         },
         {
-          "species": "SPECIES_DARMANITAN_GALAR",
+          "species": "SPECIES_DARMANITAN_GALAR_STANDARD",
           "moves": [
             "MOVE_ICICLE_CRASH",
             "MOVE_FLARE_BLITZ",
@@ -162555,7 +162553,7 @@
           "nature": "NATURE_ADAMANT"
         },
         {
-          "species": "SPECIES_ALCREMIE",
+          "species": "SPECIES_ALCREMIE_STRAWBERRY_VANILLA_CREAM",
           "moves": [
             "MOVE_CALM_MIND",
             "MOVE_ACID_ARMOR",
@@ -163135,7 +163133,7 @@
       "battleType": "Singles",
       "party": [
         {
-          "species": "SPECIES_POLTEAGEIST",
+          "species": "SPECIES_POLTEAGEIST_PHONY",
           "moves": [
             "MOVE_SHELL_SMASH",
             "MOVE_SHADOW_BALL",
@@ -163960,7 +163958,7 @@
           "nature": "NATURE_BOLD"
         },
         {
-          "species": "SPECIES_WISHIWASHI",
+          "species": "SPECIES_WISHIWASHI_SOLO",
           "moves": [
             "MOVE_SCALD",
             "MOVE_U_TURN",
@@ -164244,7 +164242,7 @@
           "nature": "NATURE_MODEST"
         },
         {
-          "species": "SPECIES_FLORGES",
+          "species": "SPECIES_FLORGES_RED",
           "moves": [
             "MOVE_MOONBLAST",
             "MOVE_WISH",
@@ -164859,7 +164857,7 @@
           "nature": "NATURE_NAIVE"
         },
         {
-          "species": "SPECIES_BASCULIN",
+          "species": "SPECIES_BASCULIN_RED_STRIPED",
           "moves": [
             "MOVE_LIQUIDATION",
             "MOVE_FLIP_TURN",
@@ -165002,7 +165000,7 @@
           "nature": "NATURE_NAIVE"
         },
         {
-          "species": "SPECIES_MINIOR",
+          "species": "SPECIES_MINIOR_METEOR_RED",
           "moves": [
             "MOVE_SHELL_SMASH",
             "MOVE_STONE_EDGE",
@@ -167769,7 +167767,7 @@
           "nature": "NATURE_TIMID"
         },
         {
-          "species": "SPECIES_FURFROU",
+          "species": "SPECIES_FURFROU_NATURAL",
           "moves": [
             "MOVE_RETURN",
             "MOVE_SUCKER_PUNCH",
@@ -167951,7 +167949,7 @@
           "nature": "NATURE_TIMID"
         },
         {
-          "species": "SPECIES_SINISTCHA",
+          "species": "SPECIES_SINISTCHA_UNREMARKABLE",
           "moves": [
             "MOVE_CALM_MIND",
             "MOVE_HEX",
@@ -168037,7 +168035,7 @@
           "nature": "NATURE_TIMID"
         },
         {
-          "species": "SPECIES_AEGISLASH",
+          "species": "SPECIES_AEGISLASH_SHIELD",
           "moves": [
             "MOVE_KING_S_SHIELD",
             "MOVE_GYRO_BALL",
@@ -168729,7 +168727,7 @@
       "battleType": "Singles",
       "party": [
         {
-          "species": "SPECIES_MR._MIME",
+          "species": "SPECIES_MR_MIME",
           "moves": [
             "MOVE_PSYCHIC",
             "MOVE_DAZZLING_GLEAM",
@@ -168962,7 +168960,7 @@
       "battleType": "Singles",
       "party": [
         {
-          "species": "SPECIES_POLTEAGEIST",
+          "species": "SPECIES_POLTEAGEIST_PHONY",
           "moves": [
             "MOVE_SHELL_SMASH",
             "MOVE_SHADOW_BALL",
@@ -169834,7 +169832,7 @@
           "nature": "NATURE_TIMID"
         },
         {
-          "species": "SPECIES_MIMIKYU",
+          "species": "SPECIES_MIMIKYU_DISGUISED",
           "moves": [
             "MOVE_PLAY_ROUGH",
             "MOVE_SHADOW_SNEAK",
@@ -169921,7 +169919,7 @@
           "nature": "NATURE_JOLLY"
         },
         {
-          "species": "SPECIES_DARMANITAN_GALAR",
+          "species": "SPECIES_DARMANITAN_GALAR_STANDARD",
           "moves": [
             "MOVE_ICICLE_CRASH",
             "MOVE_FLARE_BLITZ",
@@ -170093,23 +170091,20 @@
         },
         {
           "species": "SPECIES_HAXORUS",
-          "moves": [],
+          "moves": [
+            "MOVE_CEASELESS_EDGE",
+            "MOVE_SCALE_SHOT",
+            "MOVE_CLOSE_COMBAT",
+            "MOVE_POISON_JAB"
+          ],
           "heldItem": "ITEM_HAXORITE",
           "ability": "ABILITY_MOLD_BREAKER",
           "evs": {
             "attack": 252,
             "spDefense": 4,
             "speed": 252
-          }
-        },
-        {
-          "species": "SPECIES_JOLLY_NATURE",
-          "moves": [
-            "MOVE_CEASELESS_EDGE",
-            "MOVE_SCALE_SHOT",
-            "MOVE_CLOSE_COMBAT",
-            "MOVE_POISON_JAB"
-          ]
+          },
+          "nature": "NATURE_JOLLY"
         }
       ],
       "gender": "Male",
@@ -170648,7 +170643,7 @@
           "nature": "NATURE_JOLLY"
         },
         {
-          "species": "SPECIES_MIMIKYU_LOGI",
+          "species": "SPECIES_MIMIKYU_LOGI_DISGUISED",
           "moves": [
             "MOVE_SWORDS_DANCE",
             "MOVE_SHADOW_CLAW",
@@ -170665,7 +170660,7 @@
           "nature": "NATURE_ADAMANT"
         },
         {
-          "species": "SPECIES_TERAPAGOS",
+          "species": "SPECIES_TERAPAGOS_NORMAL",
           "moves": [
             "MOVE_TERA_STARSTORM",
             "MOVE_ICE_BEAM",
@@ -170752,7 +170747,7 @@
       "battleType": "Singles",
       "party": [
         {
-          "species": "SPECIES_TORNADUS",
+          "species": "SPECIES_TORNADUS_INCARNATE",
           "moves": [
             "MOVE_BLEAKWIND_STORM",
             "MOVE_HEAT_WAVE",
@@ -170924,7 +170919,7 @@
           "nature": "NATURE_BOLD"
         },
         {
-          "species": "SPECIES_INDEEDEE",
+          "species": "SPECIES_INDEEDEE_M",
           "moves": [
             "MOVE_EXPANDING_FORCE",
             "MOVE_ENCORE",
@@ -171513,23 +171508,20 @@
       "party": [
         {
           "species": "SPECIES_SERPERIOR",
-          "moves": [],
+          "moves": [
+            "MOVE_LEAF_STORM",
+            "MOVE_REFLECT",
+            "MOVE_GLARE",
+            "MOVE_LIGHT_SCREEN"
+          ],
           "heldItem": "ITEM_LEFTOVERS",
           "ability": "ABILITY_CONTRARY",
           "evs": {
             "hp": 204,
             "spAttack": 52,
             "speed": 252
-          }
-        },
-        {
-          "species": "SPECIES_TIMID_NATURE",
-          "moves": [
-            "MOVE_LEAF_STORM",
-            "MOVE_REFLECT",
-            "MOVE_GLARE",
-            "MOVE_LIGHT_SCREEN"
-          ]
+          },
+          "nature": "NATURE_TIMID"
         },
         {
           "species": "SPECIES_GYARADOS",
@@ -171779,7 +171771,12 @@
       "party": [
         {
           "species": "SPECIES_RIBOMBEE",
-          "moves": [],
+          "moves": [
+            "MOVE_QUIVER_DANCE",
+            "MOVE_STUN_SPORE",
+            "MOVE_BUG_BUZZ",
+            "MOVE_MOONBLAST"
+          ],
           "heldItem": "ITEM_FOCUS_SASH",
           "ability": "ABILITY_SHIELD_DUST",
           "evs": {
@@ -171789,16 +171786,8 @@
           },
           "ivs": {
             "attack": 0
-          }
-        },
-        {
-          "species": "SPECIES_TIMID_NATURE",
-          "moves": [
-            "MOVE_QUIVER_DANCE",
-            "MOVE_STUN_SPORE",
-            "MOVE_BUG_BUZZ",
-            "MOVE_MOONBLAST"
-          ]
+          },
+          "nature": "NATURE_TIMID"
         },
         {
           "species": "SPECIES_TOGEKISS",
@@ -171902,7 +171891,7 @@
           "nature": "NATURE_RELAXED"
         },
         {
-          "species": "SPECIES_MINIOR",
+          "species": "SPECIES_MINIOR_METEOR_RED",
           "moves": [
             "MOVE_SHELL_SMASH",
             "MOVE_ACROBATICS",
@@ -173047,7 +173036,7 @@
           "nature": "NATURE_BOLD"
         },
         {
-          "species": "SPECIES_TOXTRICITY",
+          "species": "SPECIES_TOXTRICITY_AMPED",
           "moves": [
             "MOVE_OVERDRIVE",
             "MOVE_SLUDGE_WAVE",
@@ -174142,7 +174131,7 @@
       "battleType": "Singles",
       "party": [
         {
-          "species": "SPECIES_GASTRODON",
+          "species": "SPECIES_GASTRODON_WEST",
           "moves": [
             "MOVE_SPIKES",
             "MOVE_EARTH_POWER",
@@ -174846,7 +174835,7 @@
           "nature": "NATURE_JOLLY"
         },
         {
-          "species": "SPECIES_LYCANROC",
+          "species": "SPECIES_LYCANROC_MIDDAY",
           "moves": [
             "MOVE_STONE_EDGE",
             "MOVE_CLOSE_COMBAT",
@@ -175286,7 +175275,7 @@
           "nature": "NATURE_JOLLY"
         },
         {
-          "species": "SPECIES_WISHIWASHI",
+          "species": "SPECIES_WISHIWASHI_SOLO",
           "moves": [
             "MOVE_SCALD",
             "MOVE_ICE_BEAM",
@@ -176061,7 +176050,7 @@
           "nature": "NATURE_TIMID"
         },
         {
-          "species": "SPECIES_ORICORIO",
+          "species": "SPECIES_ORICORIO_BAILE",
           "moves": [
             "MOVE_QUIVER_DANCE",
             "MOVE_HURRICANE",
@@ -176081,7 +176070,7 @@
           "nature": "NATURE_TIMID"
         },
         {
-          "species": "SPECIES_VIVILLON",
+          "species": "SPECIES_VIVILLON_ICY_SNOW",
           "moves": [
             "MOVE_SLEEP_POWDER",
             "MOVE_SUBSTITUTE",
@@ -176660,7 +176649,7 @@
           "nature": "NATURE_ADAMANT"
         },
         {
-          "species": "SPECIES_TOXTRICITY",
+          "species": "SPECIES_TOXTRICITY_AMPED",
           "moves": [
             "MOVE_SHIFT_GEAR",
             "MOVE_OVERDRIVE",
@@ -177475,7 +177464,7 @@
           "nature": "NATURE_MODEST"
         },
         {
-          "species": "SPECIES_CASTFORM",
+          "species": "SPECIES_CASTFORM_NORMAL",
           "moves": [
             "MOVE_WEATHER_BALL",
             "MOVE_HURRICANE",
@@ -177624,7 +177613,7 @@
           "nature": "NATURE_ADAMANT"
         },
         {
-          "species": "SPECIES_FLORGES",
+          "species": "SPECIES_FLORGES_RED",
           "moves": [
             "MOVE_WISH",
             "MOVE_SYNTHESIS",
@@ -177790,7 +177779,7 @@
           "nature": "NATURE_TIMID"
         },
         {
-          "species": "SPECIES_DARMANITAN",
+          "species": "SPECIES_DARMANITAN_STANDARD",
           "moves": [
             "MOVE_FLARE_BLITZ",
             "MOVE_U_TURN",
@@ -179093,7 +179082,7 @@
       "battleType": "Singles",
       "party": [
         {
-          "species": "SPECIES_GASTRODON",
+          "species": "SPECIES_GASTRODON_WEST",
           "moves": [
             "MOVE_SCALD",
             "MOVE_EARTH_POWER",
@@ -179472,7 +179461,7 @@
           "nature": "NATURE_BRAVE"
         },
         {
-          "species": "SPECIES_ALCREMIE",
+          "species": "SPECIES_ALCREMIE_STRAWBERRY_VANILLA_CREAM",
           "moves": [
             "MOVE_CALM_MIND",
             "MOVE_ACID_ARMOR",
@@ -179844,7 +179833,7 @@
           "nature": "NATURE_CAREFUL"
         },
         {
-          "species": "SPECIES_GOURGEIST",
+          "species": "SPECIES_GOURGEIST_AVERAGE",
           "moves": [
             "MOVE_FLAME_CHARGE",
             "MOVE_POLTERGEIST",
@@ -179890,7 +179879,7 @@
           "nature": "NATURE_TIMID"
         },
         {
-          "species": "SPECIES_DARMANITAN",
+          "species": "SPECIES_DARMANITAN_STANDARD",
           "moves": [
             "MOVE_FLARE_BLITZ",
             "MOVE_U_TURN",
@@ -179907,7 +179896,7 @@
           "nature": "NATURE_JOLLY"
         },
         {
-          "species": "SPECIES_AEGISLASH",
+          "species": "SPECIES_AEGISLASH_SHIELD",
           "moves": [
             "MOVE_SHADOW_BALL",
             "MOVE_CLOSE_COMBAT",
@@ -179927,7 +179916,7 @@
           }
         },
         {
-          "species": "SPECIES_SAWSBUCK",
+          "species": "SPECIES_SAWSBUCK_SPRING",
           "moves": [
             "MOVE_SWORDS_DANCE",
             "MOVE_HORN_LEECH",
@@ -180211,7 +180200,7 @@
       "battleType": "Singles",
       "party": [
         {
-          "species": "SPECIES_TOXTRICITY",
+          "species": "SPECIES_TOXTRICITY_AMPED",
           "moves": [
             "MOVE_BOOMBURST",
             "MOVE_OVERDRIVE",
@@ -180248,7 +180237,7 @@
           "nature": "NATURE_ADAMANT"
         },
         {
-          "species": "SPECIES_TATSUGIRI",
+          "species": "SPECIES_TATSUGIRI_CURLY",
           "moves": [
             "MOVE_NASTY_PLOT",
             "MOVE_DRACO_METEOR",
@@ -180328,7 +180317,7 @@
           "nature": "NATURE_JOLLY"
         },
         {
-          "species": "SPECIES_TATSUGIRI",
+          "species": "SPECIES_TATSUGIRI_CURLY",
           "moves": [
             "MOVE_DRACO_METEOR",
             "MOVE_MUDDY_WATER",
@@ -180620,7 +180609,7 @@
           "nature": "NATURE_ADAMANT"
         },
         {
-          "species": "SPECIES_DUDUNSPARCE",
+          "species": "SPECIES_DUDUNSPARCE_TWO_SEGMENT",
           "moves": [
             "MOVE_CALM_MIND",
             "MOVE_BOOMBURST",
@@ -180703,7 +180692,7 @@
           "nature": "NATURE_ADAMANT"
         },
         {
-          "species": "SPECIES_TATSUGIRI",
+          "species": "SPECIES_TATSUGIRI_CURLY",
           "moves": [
             "MOVE_DRACO_METEOR",
             "MOVE_MUDDY_WATER",
@@ -180864,7 +180853,7 @@
       "battleType": "Singles",
       "party": [
         {
-          "species": "SPECIES_GASTRODON",
+          "species": "SPECIES_GASTRODON_WEST",
           "moves": [
             "MOVE_SCALD",
             "MOVE_EARTH_POWER",
@@ -181732,7 +181721,7 @@
           "nature": "NATURE_ADAMANT"
         },
         {
-          "species": "SPECIES_BASCULEGION",
+          "species": "SPECIES_BASCULEGION_M",
           "moves": [
             "MOVE_LAST_RESPECTS",
             "MOVE_WAVE_CRASH",
@@ -181852,7 +181841,7 @@
           "nature": "NATURE_JOLLY"
         },
         {
-          "species": "SPECIES_BASCULEGION",
+          "species": "SPECIES_BASCULEGION_M",
           "moves": [
             "MOVE_LAST_RESPECTS",
             "MOVE_WAVE_CRASH",
@@ -182005,7 +181994,7 @@
           "nature": "NATURE_IMPISH"
         },
         {
-          "species": "SPECIES_MAUSHOLD",
+          "species": "SPECIES_MAUSHOLD_THREE",
           "moves": [
             "MOVE_TIDY_UP",
             "MOVE_POPULATION_BOMB",
@@ -182125,7 +182114,7 @@
           "nature": "NATURE_JOLLY"
         },
         {
-          "species": "SPECIES_MAUSHOLD",
+          "species": "SPECIES_MAUSHOLD_THREE",
           "moves": [
             "MOVE_TIDY_UP",
             "MOVE_POPULATION_BOMB",
@@ -182553,7 +182542,7 @@
           "nature": "NATURE_ADAMANT"
         },
         {
-          "species": "SPECIES_BASCULEGION",
+          "species": "SPECIES_BASCULEGION_M",
           "moves": [
             "MOVE_LAST_RESPECTS",
             "MOVE_WAVE_CRASH",
@@ -182673,7 +182662,7 @@
           "nature": "NATURE_JOLLY"
         },
         {
-          "species": "SPECIES_BASCULEGION",
+          "species": "SPECIES_BASCULEGION_M",
           "moves": [
             "MOVE_LAST_RESPECTS",
             "MOVE_WAVE_CRASH",
@@ -182826,7 +182815,7 @@
           "nature": "NATURE_IMPISH"
         },
         {
-          "species": "SPECIES_MAUSHOLD",
+          "species": "SPECIES_MAUSHOLD_THREE",
           "moves": [
             "MOVE_TIDY_UP",
             "MOVE_POPULATION_BOMB",
@@ -182946,7 +182935,7 @@
           "nature": "NATURE_JOLLY"
         },
         {
-          "species": "SPECIES_MAUSHOLD",
+          "species": "SPECIES_MAUSHOLD_THREE",
           "moves": [
             "MOVE_TIDY_UP",
             "MOVE_POPULATION_BOMB",
@@ -183807,7 +183796,7 @@
           "nature": "NATURE_CAREFUL"
         },
         {
-          "species": "SPECIES_LYCANROC",
+          "species": "SPECIES_LYCANROC_MIDDAY",
           "moves": [
             "MOVE_STONE_EDGE",
             "MOVE_CLOSE_COMBAT",
@@ -184471,7 +184460,7 @@
           "nature": "NATURE_JOLLY"
         },
         {
-          "species": "SPECIES_EISCUE",
+          "species": "SPECIES_EISCUE_ICE",
           "moves": [
             "MOVE_BELLY_DRUM",
             "MOVE_SUBSTITUTE",
@@ -186383,7 +186372,7 @@
           "nature": "NATURE_TIMID"
         },
         {
-          "species": "SPECIES_SINISTCHA",
+          "species": "SPECIES_SINISTCHA_UNREMARKABLE",
           "moves": [
             "MOVE_CALM_MIND",
             "MOVE_MATCHA_GOTCHA",
@@ -186569,7 +186558,7 @@
           "nature": "NATURE_JOLLY"
         },
         {
-          "species": "SPECIES_GASTRODON",
+          "species": "SPECIES_GASTRODON_WEST",
           "moves": [
             "MOVE_SCALD",
             "MOVE_EARTH_POWER",
@@ -187553,7 +187542,7 @@
           "nature": "NATURE_ADAMANT"
         },
         {
-          "species": "SPECIES_GOURGEIST",
+          "species": "SPECIES_GOURGEIST_AVERAGE",
           "moves": [
             "MOVE_SHADOW_SNEAK",
             "MOVE_SEED_BOMB",
@@ -188918,7 +188907,7 @@
           "nature": "NATURE_JOLLY"
         },
         {
-          "species": "SPECIES_BASCULEGION",
+          "species": "SPECIES_BASCULEGION_M",
           "moves": [
             "MOVE_LAST_RESPECTS",
             "MOVE_WAVE_CRASH",
@@ -189038,7 +189027,7 @@
           "nature": "NATURE_JOLLY"
         },
         {
-          "species": "SPECIES_MAUSHOLD",
+          "species": "SPECIES_MAUSHOLD_THREE",
           "moves": [
             "MOVE_TIDY_UP",
             "MOVE_POPULATION_BOMB",
@@ -189279,7 +189268,7 @@
           "nature": "NATURE_JOLLY"
         },
         {
-          "species": "SPECIES_BASCULEGION",
+          "species": "SPECIES_BASCULEGION_M",
           "moves": [
             "MOVE_LAST_RESPECTS",
             "MOVE_WAVE_CRASH",
@@ -189399,7 +189388,7 @@
           "nature": "NATURE_JOLLY"
         },
         {
-          "species": "SPECIES_MAUSHOLD",
+          "species": "SPECIES_MAUSHOLD_THREE",
           "moves": [
             "MOVE_TIDY_UP",
             "MOVE_POPULATION_BOMB",
@@ -190132,7 +190121,7 @@
           "nature": "NATURE_JOLLY"
         },
         {
-          "species": "SPECIES_FLORGES",
+          "species": "SPECIES_FLORGES_RED",
           "moves": [
             "MOVE_MOONBLAST",
             "MOVE_WISH",
@@ -190410,7 +190399,7 @@
           "nature": "NATURE_CALM"
         },
         {
-          "species": "SPECIES_MIMIKYU",
+          "species": "SPECIES_MIMIKYU_DISGUISED",
           "moves": [
             "MOVE_PLAY_ROUGH",
             "MOVE_SHADOW_SNEAK",
@@ -191310,7 +191299,7 @@
       "battleType": "Singles",
       "party": [
         {
-          "species": "SPECIES_CHERRIM",
+          "species": "SPECIES_CHERRIM_OVERCAST",
           "moves": [
             "MOVE_GROWTH",
             "MOVE_SEED_BOMB",
@@ -191396,7 +191385,7 @@
           "nature": "NATURE_HASTY"
         },
         {
-          "species": "SPECIES_TOXTRICITY",
+          "species": "SPECIES_TOXTRICITY_AMPED",
           "moves": [
             "MOVE_OVERDRIVE",
             "MOVE_BOOMBURST",
@@ -191462,7 +191451,7 @@
           "nature": "NATURE_SASSY"
         },
         {
-          "species": "SPECIES_GASTRODON",
+          "species": "SPECIES_GASTRODON_WEST",
           "moves": [
             "MOVE_SPIKES",
             "MOVE_EARTHQUAKE",
@@ -192288,7 +192277,7 @@
           "nature": "NATURE_ADAMANT"
         },
         {
-          "species": "SPECIES_GOURGEIST",
+          "species": "SPECIES_GOURGEIST_AVERAGE",
           "moves": [
             "MOVE_SHADOW_SNEAK",
             "MOVE_SEED_BOMB",
@@ -194542,7 +194531,7 @@
           "nature": "NATURE_BOLD"
         },
         {
-          "species": "SPECIES_MORPEKO",
+          "species": "SPECIES_MORPEKO_FULL_BELLY",
           "moves": [
             "MOVE_AURA_WHEEL",
             "MOVE_KNOCK_OFF",
@@ -194865,7 +194854,7 @@
       "battleType": "Singles",
       "party": [
         {
-          "species": "SPECIES_AEGISLASH",
+          "species": "SPECIES_AEGISLASH_SHIELD",
           "moves": [
             "MOVE_SUBSTITUTE",
             "MOVE_TOXIC",
@@ -194946,7 +194935,7 @@
           "nature": "NATURE_ADAMANT"
         },
         {
-          "species": "SPECIES_MIMIKYU",
+          "species": "SPECIES_MIMIKYU_DISGUISED",
           "moves": [
             "MOVE_SWORDS_DANCE",
             "MOVE_SHADOW_CLAW",
