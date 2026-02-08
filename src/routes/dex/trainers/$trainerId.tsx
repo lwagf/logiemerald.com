@@ -129,9 +129,9 @@ function TrainerDetailPage() {
 
                   {/* Moves */}
                   <div className="mt-2 flex flex-wrap gap-1">
-                    {member.moves.map(moveId => (
+                    {member.moves.map((moveId, i) => (
                       <Link
-                        key={moveId}
+                        key={`${moveId}-${i}`}
                         to="/dex/moves/$moveId"
                         params={{ moveId: formatMoveId(moveId) }}
                         className="text-xs px-2 py-0.5 bg-[rgba(15,25,40,0.5)] text-[#7090b0] rounded hover:text-white hover:bg-[rgba(30,45,65,0.5)] transition-colors"

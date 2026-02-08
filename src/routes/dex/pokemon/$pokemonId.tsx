@@ -94,7 +94,7 @@ function PokemonDetailPage() {
               const ability = getAbilityById(abilityId)
               return (
                 <Link
-                  key={abilityId}
+                  key={`${abilityId}-${i}`}
                   to="/dex/abilities/$abilityId"
                   params={{ abilityId: formatAbilityId(abilityId) }}
                   className="block p-2 bg-[rgba(20,35,55,0.5)] rounded hover:bg-[rgba(30,45,65,0.5)] transition-colors"
@@ -171,11 +171,11 @@ function PokemonDetailPage() {
         <div className="mt-6">
           <h3 className="text-lg font-semibold text-white mb-3">Moves ({mon.moves.length})</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 max-h-[300px] overflow-y-auto">
-            {mon.moves.map(moveId => {
+            {mon.moves.map((moveId, i) => {
               const move = getMoveById(moveId)
               return (
                 <Link
-                  key={moveId}
+                  key={`${moveId}-${i}`}
                   to="/dex/moves/$moveId"
                   params={{ moveId: formatMoveId(moveId) }}
                   className="p-2 bg-[rgba(20,35,55,0.5)] rounded text-sm text-[#a0c0e0] hover:bg-[rgba(30,45,65,0.5)] hover:text-white transition-colors truncate"
