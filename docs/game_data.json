@@ -6094,7 +6094,7 @@
       "id": "SPECIES_CLEFFA",
       "name": "Cleffa",
       "types": [
-        "TYPE_NORMAL"
+        "TYPE_FAIRY"
       ],
       "baseStats": {
         "hp": 50,
@@ -6247,7 +6247,7 @@
       "id": "SPECIES_CLEFAIRY",
       "name": "Clefairy",
       "types": [
-        "TYPE_NORMAL"
+        "TYPE_FAIRY"
       ],
       "baseStats": {
         "hp": 70,
@@ -6451,7 +6451,7 @@
       "id": "SPECIES_CLEFABLE",
       "name": "Clefable",
       "types": [
-        "TYPE_NORMAL"
+        "TYPE_FAIRY"
       ],
       "baseStats": {
         "hp": 95,
@@ -7152,7 +7152,8 @@
       "id": "SPECIES_IGGLYBUFF",
       "name": "Igglybuff",
       "types": [
-        "TYPE_NORMAL"
+        "TYPE_NORMAL",
+        "TYPE_FAIRY"
       ],
       "baseStats": {
         "hp": 90,
@@ -7292,7 +7293,8 @@
       "id": "SPECIES_JIGGLYPUFF",
       "name": "Jigglypuff",
       "types": [
-        "TYPE_NORMAL"
+        "TYPE_NORMAL",
+        "TYPE_FAIRY"
       ],
       "baseStats": {
         "hp": 115,
@@ -7487,7 +7489,8 @@
       "id": "SPECIES_WIGGLYTUFF",
       "name": "Wigglytuff",
       "types": [
-        "TYPE_NORMAL"
+        "TYPE_NORMAL",
+        "TYPE_FAIRY"
       ],
       "baseStats": {
         "hp": 140,
@@ -54600,7 +54603,8 @@
       "id": "SPECIES_MAWILE",
       "name": "Mawile",
       "types": [
-        "TYPE_NORMAL"
+        "TYPE_STEEL",
+        "TYPE_FAIRY"
       ],
       "baseStats": {
         "hp": 50,
@@ -54744,7 +54748,8 @@
       "id": "SPECIES_MAWILE_MEGA",
       "name": "Mawile",
       "types": [
-        "TYPE_NORMAL"
+        "TYPE_STEEL",
+        "TYPE_FAIRY"
       ],
       "baseStats": {
         "hp": 50,
@@ -84461,7 +84466,8 @@
       "id": "SPECIES_COTTONEE",
       "name": "Cottonee",
       "types": [
-        "TYPE_NORMAL"
+        "TYPE_GRASS",
+        "TYPE_FAIRY"
       ],
       "baseStats": {
         "hp": 40,
@@ -84564,7 +84570,8 @@
       "id": "SPECIES_WHIMSICOTT",
       "name": "Whimsicott",
       "types": [
-        "TYPE_NORMAL"
+        "TYPE_GRASS",
+        "TYPE_FAIRY"
       ],
       "baseStats": {
         "hp": 60,
@@ -84667,7 +84674,8 @@
       "id": "SPECIES_WHIMSICOTT_MEGA",
       "name": "Whimsicott",
       "types": [
-        "TYPE_NORMAL"
+        "TYPE_GRASS",
+        "TYPE_FAIRY"
       ],
       "baseStats": {
         "hp": 60,
@@ -84696,7 +84704,8 @@
       "id": "SPECIES_WHIMSICOTT_MEGA_SUNSHINE",
       "name": "Whimsicott",
       "types": [
-        "TYPE_NORMAL"
+        "TYPE_GRASS",
+        "TYPE_FAIRY"
       ],
       "baseStats": {
         "hp": 60,
@@ -140057,7 +140066,6 @@
       "id": "SPECIES_OGERPON_TEAL",
       "name": "Ogerpon",
       "types": [
-        "TYPE_GRASS",
         "TYPE_GRASS"
       ],
       "baseStats": {
@@ -140169,7 +140177,6 @@
       "id": "SPECIES_OGERPON_TEAL_TERA",
       "name": "Ogerpon",
       "types": [
-        "TYPE_GRASS",
         "TYPE_GRASS"
       ],
       "baseStats": {
