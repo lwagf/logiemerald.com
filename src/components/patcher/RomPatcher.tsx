@@ -22,6 +22,13 @@ function initializePatcher() {
         file: '/patch/patches.zip',
         patches: [
           {
+            file: 'logi-emerald-v0.3b.bps',
+            name: 'Logi Emerald v0.3b',
+            inputMd5: '605b89b67018abcea91e693a4dd25be3',
+            description: 'v0.3 Beta',
+            outputName: 'Logi Emerald v0.3b',
+          },
+          {
             file: 'logi-emerald-v0.2b.bps',
             name: 'Logi Emerald v0.2b',
             inputMd5: '605b89b67018abcea91e693a4dd25be3',
